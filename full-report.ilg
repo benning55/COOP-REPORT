@@ -253,7 +253,9 @@ Scanning input file full-report.tex...
 !! Input index error (file = full-report.tex, line = 145):
    -- Unknown index keyword \include.
 !! Input index error (file = full-report.tex, line = 147):
+   -- Unknown index keyword \nocite.
+!! Input index error (file = full-report.tex, line = 149):
    -- Unknown index keyword \end.
-done (0 entries accepted, 127 rejected).
+done (0 entries accepted, 128 rejected).
 Nothing written in full-report.ind.
 Transcript written in full-report.ilg.
