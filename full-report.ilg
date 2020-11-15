@@ -237,9 +237,9 @@ Scanning input file full-report.tex...
 !! Input index error (file = full-report.tex, line = 135):
    -- Unknown index keyword \include.
 !! Input index error (file = full-report.tex, line = 136):
-   -- Unknown index keyword \include.
+   -- Unknown index keyword %\include.
 !! Input index error (file = full-report.tex, line = 137):
-   -- Unknown index keyword \include.
+   -- Unknown index keyword %\include.
 !! Input index error (file = full-report.tex, line = 139):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 140):

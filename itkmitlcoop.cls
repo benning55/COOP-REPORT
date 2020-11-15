@@ -359,7 +359,6 @@ Script=Thai
 \newcommand{\makeabstract}[1]{
     %-- Abstract Page ------------------------------------------
     \newpage
-    
     \addcontentsline{toc}{chapter}{บทคัดย่อ}
     
     \begin{table}[h]
