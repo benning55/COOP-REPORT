@@ -4,146 +4,279 @@
 \usepackage{graphicx,amsmath,latexsym,amssymb,amsthm}
 \usepackage{indentfirst}
 \usepackage{cite}
-\graphicspath{ {images/} }
-\usepackage{tabto}
-\usepackage{tabularx}
-\usepackage{ltablex}
-\usepackage{longtable}
-\usepackage[labelfont=bf]{caption}
-\usepackage[labelfont=bf,tableposition=top]{caption}
-\usepackage{float}
-\captionsetup[table]{singlelinecheck=off}
-\captionsetup[table]{labelsep=space}
+\usepackage{caption}
 \captionsetup[figure]{labelsep=space}
+\captionsetup[table]{labelsep=space}
 
-\makeindex
-% ##### Set indent after new line on bibliography
+
+\graphicspath{ {images/} }
+
 \makeatletter
 % \patchcmd{<cmd>}{<search>}{<replace>}{<succes>}{<failure>}
 \patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}% LoF
 \patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}% LoT
 \makeatother
-%1. Your thesis title (THAI)
+
+% Your thesis title (THAI)
 \newcommand{\ThesisTiTle}{การพัฒนาชุดคำสั่งทดสอบอัตโนมัติ ด้วย แอพเพี่ยม บนฟลัตเตอร์ กรณีศึกษาของ โฮมโปร อีแคตตาล็อค แอปพลิเคชัน}
-%2. Your thesis title (ENG)
-\newcommand{\ThesisTiTleEng}{AUTOMATE TESTING WITH APPIUM ON FLUTTER WITH CASE STUDY BY HOMEPRO E-CATALOG APPLICATION}
-%3. Your name
+% Your thesis title (ENG)
+\newcommand{\ThesisTiTleENG}{AUTOMATE TESTING WITH APPIUM ON FLUTTER WITH CASE STUDY BY HOMEPRO E-CATALOG APPLICATION}
+% Your name
 \newcommand{\AuName}{เสฎฐวุฒิ ไม้สนธิ์}
-\newcommand{\AuNameEng}{Sedthawuth Maisonti}
-%4. Your name ENG
-\newcommand{\AuNameENG}{SEDTHAWUTH MAISONTI}
-\newcommand{\AuNameENGSnakecase}{Sedthawuth Maisonti}
-%5. Your student ID
+% Your name ENG
+\newcommand{\AuNameENG}{Sedthawuth Maisonti}
+% Department / Program
+\newcommand{\DepartmentENG}{Information Technology}
+% Your student ID
 \newcommand{\SId}{60070109}
-%6. Your advisor
+% Your advisor
 \newcommand{\Advisor}{ผศ.ดร.บุญประเสริฐ สุรักษ์รัตนสกุล}
-\newcommand{\AdvisorEng}{Asst. Prof. Dr. Boonprasert Surakratanasakul}
-%7. Your advisor employee
-\newcommand{\Exami}{นางสาว อุบลรัตน์ พรหมสาขา ณ สกลนคร}
-\newcommand{\ExamiEng}{ test }
-%8. สถานประกอบการ
+% Your advisor
+\newcommand{\AdvisorENG}{Asst. Prof. Dr. Boonprasert Surakratanasakul}
+% Your advisor employee
+\newcommand{\Exami}{อุบลรัตน์ พรหมสาขา ณ สกลนคร}
+% ชื่อสถานประกอบการ
 \newcommand{\Company}{บริษัท โฮมโปรดักส์ เซ็นเตอร์ จำกัด (มหาชน)}
-%9. ภาคเรียนที่ (in normal letters)
+% ภาคเรียนที่ (in normal letters)
 \newcommand{\Sem}{1}
-%10. ปีการศึกษา (in normal letters)
+% ปีการศึกษา (in normal letters)
 \newcommand{\AcaY}{2563}
-%11. ปีการศึกษา (in normal letters)
+% ปีการศึกษา (in normal letters)
 \newcommand{\AcaYAD}{2020}
-%12. วันส่งรายงาน
-\newcommand{\SubD}{18 พฤศจิกายน พ.ศ. 2562}
-%13. วันเริ่มทำงาน
-\newcommand{\StartDWork}{1 มิถุนายน พ.ศ. 2563}
-%14. วันสุดท้ายของการทำงาน
-\newcommand{\EndDWork}{30 พฤศจิกายน พ.ศ. 2563}
-%15. ที่อยู่สถานประกอบการ
-\newcommand{\Address}{96/27 หมู่ที่ 9 ต.บางเขน อ.เมือง จ.นนทบุรี 11000}
-%16. เว็บไซต์สถานประกอบการ
-\newcommand{\Website}{www.homepro.co.th}
-%17. ตำแหน่งานที่ปฏิบัติ
-\newcommand{\Position}{PROGRAMMER}
-
+% วันส่งรายงาน
+\newcommand{\SubD}{10 พฤศจิกายน พ.ศ. 2561}
+% วันเริ่มทำงาน
+\newcommand{\StartDWork}{23 กรกฎาคม พ.ศ. 2561}
+% วันสุดท้ายของการทำงาน
+\newcommand{\EndDWork}{30 พฤศจิกายน พ.ศ. 2561}
+% ที่อยู่สถานประกอบการ
+\newcommand{\Address}{ที่อยู่}
+% เว็บไซต์สถานประกอบการ
+\newcommand{\Website}{https://www.homepro.co.th/}
+% ตำแหน่งานที่ปฏิบัติ
+\newcommand{\Position}{โปรแกรมเมอร์}
+%19. สาขาวิชา
 \newcommand{\Department}{เทคโนโลยีสารสนเทศ}
-\newcommand{\DepartmentEng}{Information Technology}
+\renewcommand{\DepartmentENG}{Information Technology}
 
-\newcommand{\Branch}{วิศวกรรมซอฟต์แวร์}
-
-\begin{document}    
-    \pagestyle{empty}
+\begin{document}
     \frontmatter
-
-    \makecover    
+    \pagenumbering{Roman}
+    \lhead{}\rhead{}\chead{}\lfoot{}\cfoot{\thepage}\rfoot{}
+    \makecover
     \makeinnercover
-    \makeinnercovereng
-    \makecopyright
-    \makeletter
-    \makeack{
-        \begin{enumerate}
-            \item นางสาว อุบลรัตน์ พรหมสาขา ณ สกลนคร \quad ตำแหน่ง ผู้จัดการทั่วไป-สายบริการส่งเสริมการขาย (พนักงานที่ปรึกษา)
-        \end{enumerate}
-    }
-    \makeapproveletter
-   
+    \makeengcover
+    \makecopyrightcover
+
     % Setting margin for page numbering on frontmatter
     \newgeometry{top=1in, bottom=1in, left=1.5in, right=1in, includefoot}
 
-    \makeabstract{
-        % รายงานเล่มนี้จะนำเสนอ ที่มาและกระบวนการพัฒนาโมบายล์แอปพลิเคชันบนระบบปฏิบัติการ 
-        % Android และ iOS ซึ่งนักศึกษาได้ปฏิบัติสหกิจศึกษา ณ ธนาคารซีไอเอ็มบีไทย จำกัด (มหาชน) สำนักงานใหญ่ 
-        % ตำแหน่ง Junior Mobile Developer
-
-        % ธนาคารซีไอเอ็มไทย จำกัด (มหาชน) ได้จัดจำหน่ายหุ้นกู้ หนึ่งในตราสารหนี้ที่ถูกกฏหมาย โดยหุ้นกู้เป็นตราสารหนี้ที่ออกโดยบริษัทเอกชน
-        % โดยจะออกหุ้นกู้เพื่อระดมเงินทุนจากผู้ลงทุนและประชาชนทั่วไปเพื่อใช้ในการดำเนินกิจการ หุ้นกู้ที่ออกโดยภาค
-        % เอกชนนี้มักจะมีเงื่อนไขรายละเอียดของการออกในรูปแบบที่หลากหลายเพื่อให้สอดคล้องกับความต้องการ
-        % เงินทุนและความสามารถในการจ่ายคืนเงินต้นของบริษัทผู้ออกนั้นๆ ปกติการซื้อหุ้นกู้ต้องทำการซื้อผ่านสาขาเท่านั้น 
-        % ซึ่งกระบวนการในการซื้อนั้นมีขั้นตอนที่ซับซ้อนและยุ่งยากต้องมีการเซ็นเอกสารทุกครั้งที่ซื้อ และใช้เวลานาน
-        % เพื่อรอการตรวจสอบข้อมูลของผู้ซื้อ
-
-        % ทางธนาคารซีไอเอ็มไทย จำกัด (มหาชน) จึงได้เพิ่มช่องทางการจองซื้อหุ้นกู้ผ่านแอปพลิเคชันซีไอเอ็มบีไทยดิจิตอลแบงก์กิ้ง 
-        % เพื่อเป็นการแก้ปัญหาและเพิ่มความสะดวกของลูกค้าที่ไม่ต้องมาดำเนินการที่สาขาให้ยุ่งยาก 
-        % และยังเป็นการเพิ่มช่องทางการจัดจำหน่ายของหุ้นกู้เพื่อเพิ่มรายได้ให้แก่ธนาคารซีไอเอ็มไทย จำกัด (มหาชน) อีกด้วย
+    \makeletter
+    \makeack{
+        \begin{enumerate}
+            \item อุบลรัตน์ พรหมสาขา ณ สกลนคร \quad ตำแหน่ง ผู้จัดการทั่วไป-สายบริการระบบส่งเสริมการขาย (พนักงานที่ปรึกษา)
+        \end{enumerate}
     }
-    \pagestyle{fancy}
-	\pagenumbering{Roman}
+    \makeapproveletter
+    \makeabstract{
+    	บทคัดย่อ
+    }
+
    \makeabstracteng{
-    % This report will offer the source and development process of Mobile applications on the Android operating system, which the student has performed as required by CIMB Thai Bank Public Company Limited as Junior Mobile Developer.
-    
-    % CIMB Thai Bank Public Company Limited, sells bonds in legal and low risk debt securities. The bonds are issued by a private company to raise funds from investors and the general public to perform the basic operations of the company. Bonds issued by This private company is often a detailed condition of the issue in various ways to comply with the requirements. Funds and the ability to pay the original money of the issued company. Purchase of bonds must be purchased through the branch only, where the process of purchase has a complicated and tricky process. The document must be signed every time it is purchased and used. In order to verify the information of the buyer. 
-    
-    % So CIMB Thai Bank (Public Company Limited), it has increased the channel to purchase bonds through the CIMB THAI Digital Banking application. In order to solve the problem and increase the convenience of the customers who do not have to take action at the branch. This application increases the capacity of the distribution channel which return increases revenue to the CIMB Thai Bank. Limited.
+       Abstract
    }
 
     \newpage
     \addcontentsline{toc}{chapter}{สารบัญ}
     \tableofcontents
-    
+
     \newpage
     \addcontentsline{toc}{chapter}{สารบัญตาราง}
-    \listoftables    
-    
+    \listoftables
+
     \newpage
-    \addcontentsline{toc}{chapter}{สารบัญรูป}
+    \addcontentsline{toc}{chapter}{สารบัญภาพ}
     \listoffigures
-    
+
     % Reset frontmatter page numbering margin, back to original margin from class file
     \restoregeometry
 
     \mainmatter
-    \pagestyle{plain}
-    \pagenumbering{arabic}
+    \lhead{}\rhead{\thepage}\chead{}\lfoot{}\cfoot{}\rfoot{}
+
     \include{chapter1}
     \include{chapter2}
     \include{chapter3}
-    % \include{chapter4}
+    \include{chapter4}
     % \include{chapter5}
-    
+
     \clearpage
     \addcontentsline{toc}{chapter}{บรรณานุกรม}
     \bibliographystyle{IEEEtran}
     \bibliography{reference}
-    
-    \startappendix
-    \include{appendix}
 
+    \startappendix
+    \include{appendix_time.tex}
+    \include{appendix_work.tex}
+    \include{appendix_workspace.tex}
+    \include{appendix_travel.tex}
     \nocite{*}
-    
 \end{document}
+
+% \documentclass{itkmitlcoop}
+
+% \usepackage{afterpage}
+% \usepackage{graphicx,amsmath,latexsym,amssymb,amsthm}
+% \usepackage{indentfirst}
+% \usepackage{cite}
+% \usepackage{caption}
+% \captionsetup[figure]{labelsep=space}
+% \captionsetup[table]{labelsep=space}
+% % \documentclass{itkmitlcoop}
+
+% % \usepackage{afterpage}
+% % \usepackage{graphicx,amsmath,latexsym,amssymb,amsthm}
+% % \usepackage{indentfirst}
+% % \usepackage{cite}
+% \graphicspath{ {images/} }
+% % \usepackage{tabto}
+% % \usepackage{tabularx}
+% % \usepackage{ltablex}
+% % \usepackage[labelfont=bf]{caption}
+% % \usepackage[labelfont=bf,tableposition=top]{caption}
+% % \usepackage{float}
+% % \captionsetup[table]{singlelinecheck=off}
+% % \captionsetup[table]{labelsep=space}
+% % \captionsetup[figure]{labelsep=space}
+
+% \makeindex
+% % ##### Set indent after new line on bibliography
+% \makeatletter
+% % \patchcmd{<cmd>}{<search>}{<replace>}{<succes>}{<failure>}
+% \patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}% LoF
+% \patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}% LoT
+% \makeatother
+% %1. Your thesis title (THAI)
+% \newcommand{\ThesisTiTle}{การพัฒนาชุดคำสั่งทดสอบอัตโนมัติ ด้วย แอพเพี่ยม บนฟลัตเตอร์ กรณีศึกษาของ โฮมโปร อีแคตตาล็อค แอปพลิเคชัน}
+% %2. Your thesis title (ENG)
+% \newcommand{\ThesisTiTleEng}{AUTOMATE TESTING WITH APPIUM ON FLUTTER WITH CASE STUDY BY HOMEPRO E-CATALOG APPLICATION}
+% %3. Your name
+% \newcommand{\AuName}{เสฎฐวุฒิ ไม้สนธิ์}
+% \newcommand{\AuNameEng}{Sedthawuth Maisonti}
+% %4. Your name ENG
+% \newcommand{\AuNameENG}{SEDTHAWUTH MAISONTI}
+% \newcommand{\AuNameENGSnakecase}{Sedthawuth Maisonti}
+% %5. Your student ID
+% \newcommand{\SId}{60070109}
+% %6. Your advisor
+% \newcommand{\Advisor}{ผศ.ดร.บุญประเสริฐ สุรักษ์รัตนสกุล}
+% \newcommand{\AdvisorEng}{Asst. Prof. Dr. Boonprasert Surakratanasakul}
+% %7. Your advisor employee
+% \newcommand{\Exami}{นางสาว อุบลรัตน์ พรหมสาขา ณ สกลนคร}
+% \newcommand{\ExamiEng}{ test }
+% %8. สถานประกอบการ
+% \newcommand{\Company}{บริษัท โฮมโปรดักส์ เซ็นเตอร์ จำกัด (มหาชน)}
+% %9. ภาคเรียนที่ (in normal letters)
+% \newcommand{\Sem}{1}
+% %10. ปีการศึกษา (in normal letters)
+% \newcommand{\AcaY}{2563}
+% %11. ปีการศึกษา (in normal letters)
+% \newcommand{\AcaYAD}{2020}
+% %12. วันส่งรายงาน
+% \newcommand{\SubD}{18 พฤศจิกายน พ.ศ. 2562}
+% %13. วันเริ่มทำงาน
+% \newcommand{\StartDWork}{1 มิถุนายน พ.ศ. 2563}
+% %14. วันสุดท้ายของการทำงาน
+% \newcommand{\EndDWork}{30 พฤศจิกายน พ.ศ. 2563}
+% %15. ที่อยู่สถานประกอบการ
+% \newcommand{\Address}{96/27 หมู่ที่ 9 ต.บางเขน อ.เมือง จ.นนทบุรี 11000}
+% %16. เว็บไซต์สถานประกอบการ
+% \newcommand{\Website}{www.homepro.co.th}
+% %17. ตำแหน่งานที่ปฏิบัติ
+% \newcommand{\Position}{PROGRAMMER}
+
+% \newcommand{\Department}{เทคโนโลยีสารสนเทศ}
+% \newcommand{\DepartmentEng}{Information Technology}
+
+% \newcommand{\Branch}{วิศวกรรมซอฟต์แวร์}
+
+% \begin{document}    
+%     \pagestyle{empty}
+%     \frontmatter
+
+%     \makecover    
+%     \makeinnercover
+%     \makeinnercovereng
+%     \makecopyright
+%     \makeletter
+%     \makeack{
+%         \begin{enumerate}
+%             \item นางสาว อุบลรัตน์ พรหมสาขา ณ สกลนคร \quad ตำแหน่ง ผู้จัดการทั่วไป-สายบริการส่งเสริมการขาย (พนักงานที่ปรึกษา)
+%         \end{enumerate}
+%     }
+%     \makeapproveletter
+   
+%     % Setting margin for page numbering on frontmatter
+%     \newgeometry{top=1in, bottom=1in, left=1.5in, right=1in, includefoot}
+
+%     \makeabstract{
+%         % รายงานเล่มนี้จะนำเสนอ ที่มาและกระบวนการพัฒนาโมบายล์แอปพลิเคชันบนระบบปฏิบัติการ 
+%         % Android และ iOS ซึ่งนักศึกษาได้ปฏิบัติสหกิจศึกษา ณ ธนาคารซีไอเอ็มบีไทย จำกัด (มหาชน) สำนักงานใหญ่ 
+%         % ตำแหน่ง Junior Mobile Developer
+
+%         % ธนาคารซีไอเอ็มไทย จำกัด (มหาชน) ได้จัดจำหน่ายหุ้นกู้ หนึ่งในตราสารหนี้ที่ถูกกฏหมาย โดยหุ้นกู้เป็นตราสารหนี้ที่ออกโดยบริษัทเอกชน
+%         % โดยจะออกหุ้นกู้เพื่อระดมเงินทุนจากผู้ลงทุนและประชาชนทั่วไปเพื่อใช้ในการดำเนินกิจการ หุ้นกู้ที่ออกโดยภาค
+%         % เอกชนนี้มักจะมีเงื่อนไขรายละเอียดของการออกในรูปแบบที่หลากหลายเพื่อให้สอดคล้องกับความต้องการ
+%         % เงินทุนและความสามารถในการจ่ายคืนเงินต้นของบริษัทผู้ออกนั้นๆ ปกติการซื้อหุ้นกู้ต้องทำการซื้อผ่านสาขาเท่านั้น 
+%         % ซึ่งกระบวนการในการซื้อนั้นมีขั้นตอนที่ซับซ้อนและยุ่งยากต้องมีการเซ็นเอกสารทุกครั้งที่ซื้อ และใช้เวลานาน
+%         % เพื่อรอการตรวจสอบข้อมูลของผู้ซื้อ
+
+%         % ทางธนาคารซีไอเอ็มไทย จำกัด (มหาชน) จึงได้เพิ่มช่องทางการจองซื้อหุ้นกู้ผ่านแอปพลิเคชันซีไอเอ็มบีไทยดิจิตอลแบงก์กิ้ง 
+%         % เพื่อเป็นการแก้ปัญหาและเพิ่มความสะดวกของลูกค้าที่ไม่ต้องมาดำเนินการที่สาขาให้ยุ่งยาก 
+%         % และยังเป็นการเพิ่มช่องทางการจัดจำหน่ายของหุ้นกู้เพื่อเพิ่มรายได้ให้แก่ธนาคารซีไอเอ็มไทย จำกัด (มหาชน) อีกด้วย
+%     }
+%     \pagestyle{fancy}
+% 	\pagenumbering{Roman}
+%    \makeabstracteng{
+%     % This report will offer the source and development process of Mobile applications on the Android operating system, which the student has performed as required by CIMB Thai Bank Public Company Limited as Junior Mobile Developer.
+    
+%     % CIMB Thai Bank Public Company Limited, sells bonds in legal and low risk debt securities. The bonds are issued by a private company to raise funds from investors and the general public to perform the basic operations of the company. Bonds issued by This private company is often a detailed condition of the issue in various ways to comply with the requirements. Funds and the ability to pay the original money of the issued company. Purchase of bonds must be purchased through the branch only, where the process of purchase has a complicated and tricky process. The document must be signed every time it is purchased and used. In order to verify the information of the buyer. 
+    
+%     % So CIMB Thai Bank (Public Company Limited), it has increased the channel to purchase bonds through the CIMB THAI Digital Banking application. In order to solve the problem and increase the convenience of the customers who do not have to take action at the branch. This application increases the capacity of the distribution channel which return increases revenue to the CIMB Thai Bank. Limited.
+%    }
+
+%     \newpage
+%     \addcontentsline{toc}{chapter}{สารบัญ}
+%     \tableofcontents
+    
+%     \newpage
+%     \addcontentsline{toc}{chapter}{สารบัญตาราง}
+%     \listoftables    
+    
+%     \newpage
+%     \addcontentsline{toc}{chapter}{สารบัญรูป}
+%     \listoffigures
+    
+%     % Reset frontmatter page numbering margin, back to original margin from class file
+%     \restoregeometry
+
+%     \mainmatter
+%     \pagestyle{plain}
+%     \pagenumbering{arabic}
+%     \include{chapter1}
+%     \include{chapter2}
+%     \include{chapter3}
+%     % \include{chapter4}
+%     % \include{chapter5}
+    
+%     \clearpage
+%     \addcontentsline{toc}{chapter}{บรรณานุกรม}
+%     \bibliographystyle{IEEEtran}
+%     \bibliography{reference}
+    
+%     \startappendix
+%     \include{appendix}
+
+%     \nocite{*}
+    
+% \end{document}

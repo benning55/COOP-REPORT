@@ -11,19 +11,16 @@
 โฮมโปร อีแค็ตตาล็อค เป็น แอปพลิเคชันของโฮมโปรที่นำมาใช้ภายในบริษัทไว้ให้พนักงานขายของโฮมโปรที่สาขาสามารถช่วยเพิ่มประสิทธิภาพในการขายได้โดยจะมีเหตุการณ์ที่สามารถช่วยในการ
 ขายสามารถมีดังนี้
 
-\subsection{การแสดงสินค้าที่ลูกค้าสนใจ}
-    ตัวแอปพลิเคชันสามารถแสดงสินค้าตามที่ผู้ใช้คนหาได้อีกทั้งแบ่งเป็นหมวดแล้วกรองได้หลายวิธี
+\begin{enumerate}
+    \item \textbf{การแสดงสินค้าที่ลูกค้าสนใจ}\newline ตัวแอปพลิเคชันสามารถแสดงสินค้าตามที่ผู้ใช้คนหาได้อีกทั้งแบ่งเป็นหมวดแล้วกรองได้หลายวิธี
     ยกตัวอย่างเช่น หากลูกค้าต้องการซื้อโต๊ะทำงานเมื่อลูกค้าถามถึงโต๊ะทำงานพนักงานขายจะเปิดแอปพลิเคชันและทำการแสดงให้ลูกค้าดูแบบของโต๊ะทำงานของที่ {\Company}
-    จำหน่ายได้แสดงสีและยีห้อกับราคาตามที่ลูกค้าต้องการอีกทั้ง
-
-\subsection{การแสดงสต๊อคสินค้า}
-    ตัวแอปพลิเคชันสามารถแสดงสต๊อคสินค้าของสาขาที่มีสินค้าได้ยกตัวอย่างเช่นหากลูกค้ามาตามหาสินค้าแล้วไม่พบที่ชั้นวางหรือสินค้านี้ในสาขานี้หมดสามารถให้พนักงานเข้าแอปพลิเคชัน
+    จำหน่ายและราคาที่สามารถเปรียบเทียบราคาได้
+    \item \textbf{การแสดงสต๊อคสินค้า}\newline ตัวแอปพลิเคชันสามารถแสดงสต๊อคสินค้าของสาขาที่มีสินค้าได้ยกตัวอย่างเช่นหากลูกค้ามาตามหาสินค้าแล้วไม่พบที่ชั้นวางหรือสินค้านี้ในสาขานี้หมดสามารถให้พนักงานเข้าแอปพลิเคชัน
     ค้นหาสินค้าแล้วดูสต๊อคสินค้าของสินค้าที่ต้องการได้ว่าสาขาใดมีบ้างทำให้ไม่เสียลูกค้า
+    \item \textbf{การสั่งซื้อสินค้า}\newline ตัวสินค้าสามารถสั่งซื้อสินค้าได้เลยเพียงแค่กรอกเบอร์มือถือของลูกค้าก็จะเปรียบเสมือนลูกค้าได้นำสินค้าเข้าตะกร้าทำให้ปิดการขายได้รวดเร็วมากขึ้น
+\end{enumerate}
 
-\subsection{การสั่งซื้อสินค้า}
-    ตัวสินค้าสามารถสั่งซื้อสินค้าได้เลยเพียงแค่กรอกเบอร์มือถือของลูกค้าก็จะเปรียบเสมือนลูกค้าได้นำสินค้าเข้าตะกร้าทำให้ปิดการขายได้รวดเร็วมากขึ้น
-
-โดยจากการศึกษาแอปพลิเคชันจะสามารถแบ่งมาเป็นเหตุการณ์ (Senario) ในการพัฒนาชุดคำสั่งทดสอบได้ดังนี้
+\subsection{เหตุการณ์ (Senario) ในการพัฒนาชุดคำสั่งทดสอบจากการศึกษา} 
     \begin{enumerate}
         \item หน้า Log-in : กรอกรหัสพนักงาน และ รหัสผ่าน ถูกต้อง
         \item หน้า Log-in : กรอกรหัสพนักงาน หรือ รหัสผ่าน ไม่ถูกต้อง
@@ -39,10 +36,11 @@
         \item หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก จัดเรียง – เรียงจากราคาน้อยไปหามาก
         \item หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก จัดเรียง – เรียงจากราคามากไปหาน้อย
         \item หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก เปรียบสินค้าหน้าหลัก
+        \item หน้าหลัก - รายละเอียดสินค้า (Detail) : ตรวจสอบรายละเอียดของสินค้า 
         \item หน้าหลัก - รายละเอียดสินค้า (Detail) : ปุ่มเปรียบเทียบ หน้า Detail
         \item หน้าหลัก - รายละเอียดสินค้า (Detail) : แถบรายละเอียดสินค้า
         \item หน้าหลัก - รายละเอียดสินค้า (Detail) : แถบข้อมูลจำเพาะ
-        \item หน้าหลัก - รายละเอียดสินค้า (Detail) : แทบโปรโมชั่นหน้าหลัก
+        \item หน้าหลัก - รายละเอียดสินค้า (Detail) : แถบโปรโมชั่นหน้าหลัก
         \item หน้าหลัก - รายละเอียดสินค้า (Detail) : ปุ่ม สต๊อกสินค้า
         \item หน้าหลัก - รายละเอียดสินค้า (Detail) : ปุ่ม สต๊อกสินค้าเพิ่มเติม
         \item หน้าจอเปรียบเทียบสินค้า : เปรียบเทียบ
@@ -62,7 +60,470 @@
     \end{enumerate}
 
 \newpage
-\section{ผลการทดสอบด้วยกรจับ Element บนหน้าจอโดยไม่ต้องแก้ไขที่ Source Code}
+\section{ผลการทดสอบด้วยการจับ Element บนหน้าจอโดยไม่ต้องแก้ไขที่ Source Code}
+    เป็นวิธีการที่จับ Element โดยการใช้ Xpath และ Accessibility id บนหน้าจอโดยใช้ Appium ซึ่งวิธีการนี้ผู้พัฒนาชุดคำสั่งทดสอบไม่ต้องเข้าไปแก้ไขที่ Source Code ของแอปพลิเคชันดังตัวอย่างด้านล่าง
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{xpathway}
+        \caption{การดูค่า Element ด้วย Appium}\label{xpathway}
+    \end{figure}
+
+    จากรูปที่ 3.1 จะเห็นได้ว่าเมื่อชี้ที่ภาพในหมายเลข 2 จะปรากฎช่องด้านขวาซึ่งเป็นชื่อและค่าของ Element ที่อยู่ในช่องด้านขวาในหมายเลข 3 นำมาใช้งานต่อ
+
+    \subsection{หน้า Log-in : กรอกรหัสพนักงาน และ รหัสผ่าน ถูกต้อง}
+        \begin{longtable}{|l|l|l|} 
+            \hline
+            \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+            \hline
+            1              & กรอก username                & PASS                        \\ 
+            \hline
+            2              & กรอก password                & PASS                        \\ 
+            \hline
+            3              & กดปุ่ม login                 & PASS                        \\ 
+            \hline
+            4              & รอผลหน้าถัดไป                & PASS                        \\
+            \hline
+            \caption{ขอบเขตเหตุการณ์ Log-in ถูกต้อง}
+        \end{longtable}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.35\textwidth]{loginPass1}
+            \includegraphics[width=0.35\textwidth]{loginPass2}
+            \includegraphics[width=0.35\textwidth]{loginPass3}
+            \caption{ตัวอย่างเหตุการณ์ Log-in ถูกต้อง}
+            \label{Fig:25}
+        \end{figure}
+    
+    \newpage
+    \subsection{หน้า Log-in : กรอกรหัสพนักงาน หรือ รหัสผ่าน ไม่ถูกต้อง}
+        \begin{longtable}{|l|l|l|} 
+            \hline
+            \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+            \hline
+            1              & กรอก username ผิด               & PASS                        \\ 
+            \hline
+            2              & กรอก password                & PASS                        \\ 
+            \hline
+            3              & กดปุ่ม login                 & PASS                        \\ 
+            \hline
+            4              & ไม่พบข้อมูลผู้ใช้งาน                & PASS                        \\
+            \hline
+            \caption{ขอบเขตเหตุการณ์ Log-in ไม่ถูกต้อง (กรอก usename ไม่ถูกต้อง)}
+        \end{longtable}
+
+        \begin{longtable}{|l|l|l|} 
+            \hline
+            \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+            \hline
+            1              & กรอก username               & PASS                        \\ 
+            \hline
+            2              & กรอก password ผิด                & PASS                        \\ 
+            \hline
+            3              & กดปุ่ม login                 & PASS                        \\ 
+            \hline
+            4              & รหัสผ่านไม่ถูกต้อง                & PASS                        \\
+            \hline
+            \caption{ขอบเขตเหตุการณ์ Log-in ไม่ถูกต้อง (กรอก password ไม่ถูกต้อง)}
+        \end{longtable}
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.35\textwidth]{loginPass1}
+            \includegraphics[width=0.35\textwidth]{loginFail1}
+            \includegraphics[width=0.35\textwidth]{loginFail2}
+            \caption{ตัวอย่างเหตุการณ์ Log-in ถูกต้อง}
+            \label{Fig:26}
+        \end{figure}
+
+    \subsection{ออกจากระบบ : ต้องการออกจากระบบด้วยแทบ "ผู้ใช้งาน" ใน BottomNavigationBar}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & กดไปที่ปุ่มผู้ใช้งาน                & PASS                        \\ 
+        \hline
+        3              & กดปุ่มออกจากระบบ                & PASS                        \\ 
+        \hline
+        4              & กดตกลงยืนยันและไปหน้า log-in     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ ออกจากระบบด้วยแทบ "ผู้ใช้งาน" ใน BottomNavigationBar}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{logout1}
+        \includegraphics[width=0.35\textwidth]{logout1_2}
+        \includegraphics[width=0.35\textwidth]{logout1_3}
+        \caption{ตัวอย่างเหตุการณ์ ออกจากระบบด้วยแทบ "ผู้ใช้งาน" ใน BottomNavigationBar}
+        \label{Fig:27}
+    \end{figure}
+
+    \subsection{ออกจากระบบ : ต้องการออกจากระบบด้วยแทบ "เมนู" ใน BottomNavigationBar}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & กดไปที่ปุ่มเมนู               & PASS                        \\ 
+        \hline
+        3              & กดปุ่มออกจากระบบ                & PASS                        \\ 
+        \hline
+        4              & กดตกลงยืนยันและไปหน้า log-in     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ ออกจากระบบด้วยแทบ "เมนู" ใน BottomNavigationBar}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{logout1}
+        \includegraphics[width=0.35\textwidth]{logout2}
+        \includegraphics[width=0.35\textwidth]{logout2_1}
+        \caption{ตัวอย่างเหตุการณ์ ออกจากระบบด้วยแทบ "เมนู" ใน BottomNavigationBar}
+        \label{Fig:28}
+    \end{figure}
+
+    \subsection{หน้าหลัก - รายละเอียดสินค้า (Detail) : ตรวจสอบรายละเอียดของสินค้า}
+
+    สามารถแบ่งได้เป็น 2 ประเภทคือ รายละเอียดสินค้า ราคาธรรมดาและสินค้าราคาโปรโมชัน
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & กดไปที่หมวดเครื่องใช้ไฟฟ้า               & PASS                        \\ 
+        \hline
+        3              & กดปุ่มหมวดย่อยไปที่เครื่องเตรียมอาหาร                & PASS                        \\ 
+        \hline
+        4              & เลือกสินค้าธรรมดา     & PASS                        \\
+        \hline
+        5              & เช็คแบรนสินค้า     & PASS                        \\
+        \hline
+        6              & เช็คชื่อสินค้า     & PASS                        \\
+        \hline
+        7              & เช็ครหัสสินค้า     & PASS                        \\
+        \hline
+        8              & เช็คราคาแบบธรรมดา     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ รายละเอียดสินค้า (Detail) ตรวจสอบรายละเอียดของสินค้าธรรมดา}
+    \end{longtable}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & กดไปที่หมวดเครื่องใช้ไฟฟ้า               & PASS                        \\ 
+        \hline
+        3              & กดปุ่มหมวดย่อยไปที่เครื่องเตรียมอาหาร                & PASS                        \\ 
+        \hline
+        4              & เลือกสินค้าธรรมดา     & PASS                        \\
+        \hline
+        5              & เช็คแบรนสินค้า     & PASS                        \\
+        \hline
+        6              & เช็คชื่อสินค้า     & PASS                        \\
+        \hline
+        7              & เช็ครหัสสินค้า     & PASS                        \\
+        \hline
+        8              & เช็คราคาแบบธรรมดา     & PASS                        \\
+        \hline
+        9              & เช็คราคาแบบโปรโมชั่น     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ รายละเอียดสินค้า (Detail) ตรวจสอบรายละเอียดของสินค้ามีโปรโมชัน}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{detail1_2.JPG}
+        \includegraphics[width=0.35\textwidth]{detail1_3.JPG}
+        \includegraphics[width=0.35\textwidth]{detail1_4.JPG}
+        \caption{ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) ตรวจสอบรายละเอียดของสินค้า}
+        \label{Fig:28}
+    \end{figure}
+
+    \newpage
+    \subsection{หน้าหลัก - รายละเอียดสินค้า (Detail) : ปุ่มเปรียบเทียบ หน้า Detail}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & เลือกสินค้า               & PASS                        \\ 
+        \hline
+        3              & กดปุ่มเปรียบเทียบ                & PASS                        \\ 
+        \hline
+        4              & เช็คว่ามีสินค้าในช่องเปรียบเทียบ     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่มเปรียบเทียบ หน้า Detail}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{detailCom1.JPG}
+        \includegraphics[width=0.35\textwidth]{deatilCom2.JPG}
+        \caption{ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่มเปรียบเทียบ หน้า Detail}
+        \label{Fig:28}
+    \end{figure}
+
+
+    \subsection{หน้าหลัก - รายละเอียดสินค้า (Detail) : แถบรายละเอียดสินค้า}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & เลือกสินค้า               & PASS                        \\ 
+        \hline
+        3              & ไปหาเช็คแถบรายละเอียดสินค้ากดปุ่มเพิ่มเติม       & PASS                        \\ 
+        \hline
+        4              & มีรายละเอียดสินค้า     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ รายละเอียดสินค้า (Detail) แถบรายละเอียดสินค้า}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{deatilInfo1}
+        \includegraphics[width=0.35\textwidth]{detailInfo1_2}
+        \includegraphics[width=0.35\textwidth]{detailInfo1_3}
+        \caption{ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) แถบรายละเอียดสินค้า}
+        \label{Fig:29}
+    \end{figure}
+
+    \newpage
+    \subsection{หน้าหลัก - รายละเอียดสินค้า (Detail) : แถบข้อมูลจำเพาะ}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & เลือกสินค้า               & PASS                        \\ 
+        \hline
+        3              & ไปยังหมวดข้อมูลจำเพาะ       & PASS                        \\ 
+        \hline
+        4              & เช็ค Brand     & PASS                        \\
+        \hline
+        5              & เช็ค Color     & PASS                        \\
+        \hline
+        6              & เช็ค ประเภทหน้าบาน     & PASS                        \\
+        \hline
+        7              & เช็ค ผิวเคลือบ     & PASS                        \\
+        \hline
+        8              & เช็ค การขึ้นรูป     & PASS                        \\
+        \hline
+        9              & เช็ค ลายหน้าบาน     & PASS                        \\
+        \hline
+        10              & เช็ค Material     & PASS                        \\
+        \hline
+        11             & เช็ค Size     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ รายละเอียดสินค้า (Detail) แถบข้อมูลจำเพาะ}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{deatilInfo1}
+        \includegraphics[width=0.35\textwidth]{detailInfo2.JPG}
+        \caption{ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) แถบข้อมูลจำเพาะ}
+        \label{Fig:30}
+    \end{figure}
+
+    \newpage
+    \subsection{หน้าหลัก - รายละเอียดสินค้า (Detail) : แถบโปรโมชั่นหน้าหลัก}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & เลือกสินค้า               & PASS                        \\ 
+        \hline
+        3              & ไปยังหมวดโปรโมชัน       & PASS                        \\ 
+        \hline
+        4              & เช็ค โปรโมชัน 1 อันเป็นตัวอย่างว่าข้อมูลเข้า     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ รายละเอียดสินค้า (Detail) แถบโปรโมชั่นหน้าหลัก}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{deatilInfo1}
+        \includegraphics[width=0.35\textwidth]{detailPromotion}
+        \caption{ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) แถบโปรโมชั่นหน้าหลัก}
+        \label{Fig:30}
+    \end{figure}
+
+    \newpage
+    \subsection{หน้าหลัก - รายละเอียดสินค้า (Detail) : ปุ่ม สต๊อกสินค้า}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & เลือกสินค้า               & PASS                        \\ 
+        \hline
+        3              & ไปหาและกดปุ่มสต๊อค       & PASS                        \\ 
+        \hline
+        4              & มีรายสาขาที่ของผู้ใช้ขึ้นก่อน     & PASS                        \\
+        \hline
+        5              & เป็นสาขา DC01     & PASS                        \\
+        \hline
+        6              & เป็นสาขา DC02     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่ม สต๊อกสินค้า}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{stock1}
+        \includegraphics[width=0.35\textwidth]{stock1_2}
+        \includegraphics[width=0.35\textwidth]{stock1_3}
+        \caption{ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่ม สต๊อกสินค้า}
+        \label{Fig:31}
+    \end{figure}
+
+    \newpage
+    \subsection{หน้าหลัก - รายละเอียดสินค้า (Detail) : ปุ่ม สต๊อกสินค้าเพิ่มเติม}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & เลือกสินค้า               & PASS                        \\ 
+        \hline
+        3              & ไปหาและกดปุ่มสต๊อค       & PASS                        \\ 
+        \hline
+        4              & กดไปที่สต๊อคสาขาอื่น     & PASS                        \\
+        \hline
+        5              & เช็คลำดับสต๊อคจากสาขามีมากไปน้อย     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่ม สต๊อกสินค้าเพิ่มเติม}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{stock1}
+        \includegraphics[width=0.35\textwidth]{stock1_2}
+        \includegraphics[width=0.35\textwidth]{stock1_3}
+        \includegraphics[width=0.35\textwidth]{stockMore.JPG}
+        \caption{ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่ม สต๊อกสินค้าเพิ่มเติม}
+        \label{Fig:31}
+    \end{figure}
+
+    \newpage
+    \subsection{หน้าจอเปรียบเทียบสินค้า : เปรียบเทียบ}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & ไปยังหมวดหมู่ย่อย               & PASS                        \\ 
+        \hline
+        3              & กดเลือกปุ่มเปรียบเทียบสินค้า 3 ชิ้น       & PASS                        \\ 
+        \hline
+        4              & กดยืนยันการเปรียบเทียบ     & PASS                        \\
+        \hline
+        5              & เช็ค ความกว้าง     & PASS                        \\
+        \hline
+        6              & เช็ค ความลึก     & PASS                        \\
+        \hline
+        7              & เช็ค Material     & PASS                        \\
+        \hline
+        8              & เช็ค ระดับ     & PASS                        \\
+        \hline
+        9              & เช็ค อุปกรณ์เสริม     & PASS                        \\
+        \hline
+        10              & เช็ค ฺBrand     & PASS                        \\
+        \hline
+        11              & เช็ค ความสูง     & PASS                        \\
+        \hline
+        12              & เช็ค น้ำหนัก     & PASS                        \\
+        \hline
+        13              & เช็ค กำลังไฟ     & PASS                        \\
+        \hline
+        14              & เช็ค Size     & PASS                        \\
+        \hline
+        15              & เช็ค Color     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ เปรียบเทียบสินค้า}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{compare1_1}
+        \includegraphics[width=0.35\textwidth]{compare1_2}
+        \includegraphics[width=0.35\textwidth]{compare1_3}
+        \caption{ตัวอย่างเหตุการณ์ เปรียบเทียบสินค้า}
+        \label{Fig:31}
+    \end{figure}
+
+    \newpage
+    \subsection{หน้าจอเปรียบเทียบสินค้า : เปรียบเทียบมากกว่า 3 รายการ}
+
+    \begin{longtable}{|l|l|l|} 
+        \hline
+        \textbf{ลำดับ} & \textbf{เหตุการณ์ในการทดสอบ} & \textbf{ผลลัพธ์ในการทดสอบ}  \endfirsthead 
+        \hline
+        1              & ทำการ Log-in               & PASS                        \\ 
+        \hline
+        2              & ไปยังหมวดหมู่ย่อย               & PASS                        \\ 
+        \hline
+        3              & กดเลือกปุ่มเปรียบเทียบสินค้า 4 ชิ้น       & PASS                        \\ 
+        \hline
+        4              & แสดงจำนวนสินค้าเปรียบเทียบเกินกำหนด     & PASS                        \\
+        \hline
+        \caption{ขอบเขตเหตุการณ์ เปรียบเทียบมากกว่า 3 รายการ}
+    \end{longtable}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.35\textwidth]{compare1_1}
+        \includegraphics[width=0.35\textwidth]{compare1_2}
+        \includegraphics[width=0.35\textwidth]{compareMore}
+        \caption{ตัวอย่างเหตุการณ์ เปรียบเทียบมากกว่า 3 รายการ}
+        \label{Fig:31}
+    \end{figure}
+
+    % \begin{tabularx}{\linewidth}{|c|c|}
+    %     \captionsetup{justification=centering}
+    %     \caption{ข้อดีและข้อเสีย}\label{posAndNeg} \\
+    %     \hline
+    %     \multicolumn{1}{|c|}{\textbf{ข้อดี}}	&	\multicolumn{1}{c|}{\textbf{ข้อเสีย}} \\
+    %     \hline
+    %     \endfirsthead
+    %     \caption* {\textbf{ตารางที่ \ref{posAndNeg} (ต่อ)} ข้อดีและข้อเสีย} \\
+    %     \hline
+    %     \multicolumn{1}{|c|}{\textbf{ข้อดี}}	&	\multicolumn{1}{c|}{\textbf{ข้อเสีย}} \\
+    %     \hline
+    %     \endhead
+    %     \hline
+    %     \endfoot
+    %     ไม่ต้องแก้ที่ Source Code & ต้องทำแบบทดสอบ 2\\
+    %     รวดเร็วในการทำการทดสอบ & ลำดับของ element มีโอกาสที่จะเปลี่ยน\\
+    %     สามารถแสดงคียบอร์ดเปรียบเสมือการพิมพ์ได้ & \\
+    %     \hline
+    % \end{tabularx}
 % \section{โครงสร้างของระบบ}
 % การพัฒนาส่วนการจองซื้อหุ้นกู้สำหรับแอปพลิเคชัน ซีไอเอ็มบีไทยดิจิตอลแบงก์กิ้ง มีการพัฒนาทั้งบนระบบปฏิบัติการ Android โดยใช้ภาษา Kotlin
 % และบนระบบปฏิบัติการ iOS โดยใช้ภาษา Swift อีกทั้งยังมีการใช้รูปแบบการพัฒนาแอปพลิเคชันแบบ Super App และ Mini App
