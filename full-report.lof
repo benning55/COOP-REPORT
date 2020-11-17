@@ -1,0 +1,59 @@
+\contentsline {figure}{\numberline {1.1}{\ignorespaces ตราตราสัญลักษณ์ บริษัท โฮมโปรดักส์ เซ็นเตอร์ จำกัด (มหาชน)\relax }}{2}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces โครงสร้างองค์กรของ บริษัท โฮมโปรดักส์ เซ็นเตอร์ จำกัด (มหาชน)\relax }}{4}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces ค่าใช้จ่ายการแก้ข้อผิดพลาดที่แปรผันตามขั้นตอนของการพัฒนาซอฟต์แวร์\relax }}{9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ตราตราสัญลักษณ์ Katalon Studio\relax }}{10}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces ตราตราสัญลักษณ์ Selenium\relax }}{10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces ตราตราสัญลักษณ์ Micro Focus UFT\relax }}{11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces ตราตราสัญลักษณ์ TestComplete\relax }}{11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces ตราตราสัญลักษณ์ Appium\relax }}{11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces โครงสร้างการทำงานของ Appium\relax }}{12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces ตราสัญลักษณ์ Amazon Web Service (AWS)\relax }}{13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces ตราสัญลักษณ์ AWS Device Farm\relax }}{13}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces ตราสัญลักษณ์ Node.JS\relax }}{13}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces ตราสัญลักษณ์ Flutter\relax }}{14}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces โครงสร้างการทำงานของ Appium Flutter Driver\relax }}{14}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces ตราสัญลักษณ์ Git\relax }}{15}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces ตราสัญลักษณ์ Visual Studio Code\relax }}{15}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces การดูค่า Element ด้วย Appium\relax }}{19}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces ตัวอย่างการแสดงผลของการทดสอบ\relax }}{19}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces ตัวอย่างการบันทึกหน้าจอเมื่อผิดผลาด\relax }}{20}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces ตัวอย่างเหตุการณ์ Log-in ถูกต้อง\relax }}{21}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces ตัวอย่างเหตุการณ์ Log-in ถูกต้อง\relax }}{22}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces ตัวอย่างเหตุการณ์ ออกจากระบบด้วยแทบ "ผู้ใช้งาน" ใน BottomNavigationBar\relax }}{23}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces ตัวอย่างเหตุการณ์ ออกจากระบบด้วยแทบ "เมนู" ใน BottomNavigationBar\relax }}{24}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) ตรวจสอบรายละเอียดของสินค้า\relax }}{26}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่มเปรียบเทียบ หน้า Detail\relax }}{27}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) แถบรายละเอียดสินค้า\relax }}{28}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) แถบข้อมูลจำเพาะ\relax }}{29}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) แถบโปรโมชั่นหน้าหลัก\relax }}{30}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่ม สต๊อกสินค้า\relax }}{31}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces ตัวอย่างเหตุการณ์ รายละเอียดสินค้า (Detail) ปุ่ม สต๊อกสินค้าเพิ่มเติม\relax }}{32}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces ตัวอย่างเหตุการณ์ เปรียบเทียบสินค้า\relax }}{33}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces ตัวอย่างเหตุการณ์ เปรียบเทียบมากกว่า 3 รายการ\relax }}{34}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces ตัวอย่างเหตุการณ์ ยกเลิกตัวที่เปรียบเทียบบางรายการ\relax }}{35}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces ตัวอย่างเหตุการณ์ยกเลิกการเปรียบเทียบทั้งหมด\relax }}{36}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces ตัวอย่างเหตุการณ์ ปุ่ม เพิ่มลงรถเข็น\relax }}{37}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces ตัวอย่างเหตุการณ์ รถเข็นสินค้า – แก้ไขรายการสินค้า แก้ไขจำนวนสินค้า (เพิ่ม-ลด)\relax }}{38}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces ตัวอย่างเหตุการณ์ รถเข็นสินค้า – แก้ไขรายการสินค้า แก้ไขจำนวนสินค้า (เพิ่ม) โดยให้มี QTY รวมกันเกิน 999\relax }}{39}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces ตัวอย่างเหตุการณ์ รถเข็นสินค้า – แก้ไขรายการสินค้า ลบรายการสินค้า\relax }}{40}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces ตัวอย่างเหตุการณ์ รถเข็นสินค้า – สร้างใบคำสั่งซื้อ สร้างใบคำสั่งซื้อ โดยใช้เบอร์โทรที่ไม่ใช่เบอร์มือถือ\relax }}{41}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces ตัวอย่างเหตุการณ์ รถเข็นสินค้า – สร้างใบคำสั่งซื้อ สร้างใบคำสั่งซื้อ โดยใช้เบอร์โทรที่เบอร์มือถือถูกต้อง\relax }}{42}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces ตัวอย่างเหตุการณ์ ผู้ใช้งาน ข้อมูลผู้เข้าใช้งาน\relax }}{43}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces ตัวอย่างเหตุการณ์ เมนู – เลือกหมวดสินค้า การค้นหาสินค้าจากการเลือกหมวดสินค้า\relax }}{44}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces ตัวอย่างเหตุการณ์ เมนู – เลือกหมวดสินค้า การค้นหาสินค้าจากการเลือกแบรนด์สินค้า\relax }}{45}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces ตัวอย่างเหตุการณ์ เมนู – ภาษา การเลือกภาษา\relax }}{46}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่หลัก (Level 3) ปุ่มค้นหา\relax }}{47}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces ตัวอย่างการเพิ่ม Key กับ Element\relax }}{47}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces ตัวอย่างการแสดงผลการทดสอบแบบผ่านและมีข้อผิดพลาด\relax }}{48}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่หลัก (Level 3) ตรวจสอบการแสดงหมวดหมู่สินค้า\relax }}{49}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 2) ตรวจสอบการแสดงหมวดหมู่สินค้า\relax }}{51}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 2) ดูทั้งหมด\relax }}{52}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) เลือกตัวกรอง – ตัวกรองหมวดสินค้า\relax }}{53}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) เลือกตัวกรอง – ตัวกรองแบรนด์\relax }}{54}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตรวจสอบการแสดงหมวดหมู่สินค้า Default\relax }}{55}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก จัดเรียง – เรียงจากราคาน้อยไปหามาก\relax }}{56}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก จัดเรียง – เรียงจากราคามากไปหาน้อย\relax }}{57}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก เปรียบสินค้าหน้าหลัก\relax }}{58}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces ตัวอย่างผลการทดลองนำไปทดสอบบน AWS Device Farm\relax }}{59}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces ตัวอย่างภาพบันทึกหน้าจอจาก AWS Devices Faem\relax }}{60}%
+\contentsfinish 
