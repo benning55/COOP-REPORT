@@ -77,7 +77,7 @@
         \label{result}
     \end{figure}
 
-    จากรูป ปป..ปป เป็นรูปสรุปผลการทดสอบว่ามีผ่านจำนวนทั้งหมดเท่าไหร่ ผิดผลาด (Test Fail) เท่าไร่และทำไมถึงผิดพลาด
+    จากรูป 3.2 เป็นรูปสรุปผลการทดสอบว่ามีผ่านจำนวนทั้งหมดเท่าไหร่ ผิดผลาด (Test Fail) เท่าไร่และทำไมถึงผิดพลาด        
 
     \begin{figure}[H]
         \centering
@@ -87,7 +87,18 @@
         \label{errorPic}
     \end{figure}
 
-    จากรูป ปป..ปป เป็นรูปที่เกิดจากการบันทึกหน้าจอเมื่อเจอข้อผิดผลาด (Test Fail) ดังตัวอย่างแสดงถึงเวลาที่หมดในการรอหน้าจอแสดงผลหรือใช้เวลาเกินกำหนดเป็นต้น
+    จากรูป 3.3 เป็นรูปที่เกิดจากการบันทึกหน้าจอเมื่อเจอข้อผิดผลาด (Test Fail) ดังตัวอย่างแสดงถึงเวลาที่หมดในการรอหน้าจอแสดงผลหรือใช้เวลาเกินกำหนดเป็นต้น
+
+    \begin{longtable}{|l|l|}
+        \caption{ตารางข้อเปรียบเทียบการทดสอบด้วยการจับ Element บนหน้าจอโดยไม่ต้องแก้ไขที่ Source Code}\\ 
+        \hline
+        \textbf{ข้อดี} & \textbf{ข้อเสีย} \endfirsthead 
+        \hline
+        \begin{tabular}[c]{@{}l@{}}สามารถจับ Element\\ได้โดยที่ไม่ต้อง\\ตามไปแก้ ที่ Source Code\end{tabular} & \begin{tabular}[c]{@{}l@{}}มีโอกาสที่ ลำดับของ \\Element \\จะคลาดเคลื่อน\\ตามขนาดโทรศัพท์\end{tabular}  \\ 
+        \hline
+        \begin{tabular}[c]{@{}l@{}}เปรียบเสมือนโทรศัพท์\\แสดงคีย์บอร์ดและกดได้\end{tabular}                   & \begin{tabular}[c]{@{}l@{}}บางคำสั่งอาจไม่รองรับการ\\ใช้งานกับ \\Appium ในคนละเวอร์ชัน\end{tabular}     \\
+        \hline
+    \end{longtable}
 
     \newpage
     \subsection{หน้า Log-in : กรอกรหัสพนักงาน และ รหัสผ่าน ถูกต้อง}
@@ -900,9 +911,33 @@
     \caption{ตัวอย่างการเพิ่ม Key กับ Element}\label{keyAdd}
 \end{figure}
 
-จากรูปที่ 3.1 เป็นการเพิ่ม Key ใน Element ของปุ่มซึ่งสามารถนำมาเรียกใช้ในการจับได้แต่ก็มีข้อจำกัดในบาง Element เช่น SlideBar เป็นต้นเนื่องจากจะจับตัวลากไม่ได้
+จากรูปที่ 3.30 เป็นการเพิ่ม Key ใน Element ของปุ่มซึ่งสามารถนำมาเรียกใช้ในการจับได้แต่ก็มีข้อจำกัดในบาง Element เช่น SlideBar เป็นต้นเนื่องจากจะจับตัวลากไม่ได้เลือก
+ ใช้วิธีนี้เมื่อลำดับของ Element เปลี่ยนทำให้แบบไม่แก้ Source Code ไม่แน่นอน
 
-\subsection{หน้าหลัก - หมวดหมู่หลัก (Level 3) : ตรวจสอบการแสดงหมวดหมู่สินค้า}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{resultFlutter}
+    \includegraphics[width=1\textwidth]{resultFail}
+    \caption{ตัวอย่างการแสดงผลการทดสอบแบบผ่านและมีข้อผิดพลาด}\label{keyAdd1}
+\end{figure}
+
+จากรูป 3.31 เป็นตัวอย่างการทดสอบหากผ่านการทดสอบและหากพบข้อผิดพลาดจะแสดงผลอย่างไร
+
+\begin{longtable}{|l|l|}
+    \caption{ตารางข้อเปรียบเทียบการทดสอบด้วยการจับ แก้ไขที่ Source Code ของ Flutter โดยใช้ Appium Flutter Driver}\\ 
+    \hline
+    \textbf{ข้อดี}  & \textbf{ข้อเสีย} \endfirsthead 
+    \hline
+    \begin{tabular}[c]{@{}l@{}}สามารถจับ Element ได้แม่นยำตาม\\key ที่ developer สร้างเอาไว้\end{tabular}                                                                      & \begin{tabular}[c]{@{}l@{}}ไม่สามารถแสดงคีย์บอร์ดที่เปรียบเสมือน\\การพิมพ์ได้ทำให้ไม่สามารถทดสอบบาง\\~function ได้\end{tabular}  \\ 
+    \hline
+    \begin{tabular}[c]{@{}l@{}}สามารถใช้ Flutter\_Driver ที่เป็นตัวทดสอบ\\~แอปพลิเคชันที่สร้างด้วย Flutter ที่ปกติเขียนด้วย \\Dart สามารถนำมาเขียนเป็นภาษาอื่นได้\end{tabular} & \begin{tabular}[c]{@{}l@{}}ต้องไปแก้ที่ Source Code และ \\build ใหม่เสมอเมื่อต้องการนำมาทดสอบ\end{tabular}                       \\ 
+    \hline
+                                                                                                                                                                               & \begin{tabular}[c]{@{}l@{}}ยังไม่สามารถนำ Flutter\_Driver \\มาใช้ได้อย่างสมบูรณ์เพราะพัฒนาไม่เสร็จ\end{tabular}                  \\
+    \hline
+\end{longtable}
+
+    \newpage
+    \subsection{หน้าหลัก - หมวดหมู่หลัก (Level 3) : ตรวจสอบการแสดงหมวดหมู่สินค้า}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่หลัก (Level 3) ตรวจสอบการแสดงหมวดหมู่สินค้า} \\
         \hline
@@ -922,6 +957,7 @@
         \label{Fig:75}
     \end{figure}
 
+    \newpage
     \subsection{หน้าหลัก - หมวดหมู่ย่อย (Level 2) : ตรวจสอบการแสดงหมวดหมู่สินค้า}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่ย่อย (Level 2) ตรวจสอบการแสดงหมวดหมู่สินค้า} \\
@@ -945,6 +981,7 @@
         \label{Fig:61}
     \end{figure}
 
+    \newpage
     \subsection{หน้าหลัก - หมวดหมู่ย่อย (Level 2) : ดูทั้งหมด}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่ย่อย (Level 2) ดูทั้งหมด} \\
@@ -969,7 +1006,7 @@
         \label{Fig:62}
     \end{figure}
 
-
+    \newpage
     \subsection{หน้าหลัก - หมวดหมู่ย่อย (Level 1) : เลือกตัวกรอง – ตัวกรองหมวดสินค้า}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่ย่อย (Level 1) เลือกตัวกรอง – ตัวกรองหมวดสินค้า} \\
@@ -992,14 +1029,13 @@
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{level1_1_1}
         \includegraphics[width=0.35\textwidth]{level1_1_2}
         \includegraphics[width=0.35\textwidth]{level1_1_3}
         \caption{ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) เลือกตัวกรอง – ตัวกรองหมวดสินค้า}
         \label{Fig:70}
     \end{figure}
 
-
+    \newpage
     \subsection{หน้าหลัก - หมวดหมู่ย่อย (Level 1) : เลือกตัวกรอง – ตัวกรองแบรนด์}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่ย่อย (Level 1) เลือกตัวกรอง – ตัวกรองแบรนด์} \\
@@ -1022,13 +1058,13 @@
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{level1_1_1}
         \includegraphics[width=0.35\textwidth]{level1_2_2}
         \includegraphics[width=0.35\textwidth]{level1_2_3}
         \caption{ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) เลือกตัวกรอง – ตัวกรองแบรนด์}
         \label{Fig:63}
     \end{figure}
 
+    \newpage
     \subsection{หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตรวจสอบการแสดงหมวดหมู่สินค้า Default}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตรวจสอบการแสดงหมวดหมู่สินค้า Default} \\
@@ -1053,6 +1089,7 @@
         \label{Fig:64}
     \end{figure}
 
+    \newpage
     \subsection{หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก จัดเรียง – เรียงจากราคาน้อยไปหามาก}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก จัดเรียง – เรียงจากราคาน้อยไปหามาก} \\
@@ -1077,13 +1114,13 @@
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{level1_1_1}
         \includegraphics[width=0.35\textwidth]{level_less}
         \includegraphics[width=0.35\textwidth]{level_less2}
         \caption{ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก จัดเรียง – เรียงจากราคาน้อยไปหามาก}
         \label{Fig:65}
     \end{figure}
 
+    \newpage
     \subsection{หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก จัดเรียง – เรียงจากราคามากไปหาน้อย}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก จัดเรียง – เรียงจากราคามากไปหาน้อย} \\
@@ -1110,13 +1147,13 @@
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.35\textwidth]{level1_1_1}
         \includegraphics[width=0.35\textwidth]{level_more1}
         \includegraphics[width=0.35\textwidth]{level_more2}
         \caption{ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก จัดเรียง – เรียงจากราคามากไปหาน้อย}
         \label{Fig:66}
     \end{figure}
 
+    \newpage
     \subsection{หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก เปรียบสินค้าหน้าหลัก}
     \begin{longtable}{|l|l|l|}
         \caption{ขอบเขตเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก เปรียบสินค้าหน้าหลัก} \\
@@ -1144,3 +1181,37 @@
         \caption{ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก เปรียบสินค้าหน้าหลัก}
         \label{Fig:67}
     \end{figure}
+
+\newpage
+\section{ผลการทดสอบด้วยการใช้ AWS Device Farm}
+การใช้ AWS Device Farm ใช้เพื่อลดเวลาในการทดสอบและความหลากหลายของอุปกรณ์ในการทดสอบ
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{devicefram1}
+    \includegraphics[width=1\textwidth]{devicefarm2}
+    \caption{ตัวอย่างผลการทดลองนำไปทดสอบบน AWS Device Farm}
+    \label{Fig:90}
+\end{figure}
+
+จากรูป 3.42 ค้นพบว่าการทดสอบบน AWS Device Farm กับแอปพลิเคชัน HomePro E-Catalog ไม่สามารถทำได้เพราะแอปพลิเคชันนี้รองรับในการใช้กับอินเทอร์เน็ตภายในองค์กรเท่านั้น
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{test1}
+    \includegraphics[width=0.35\textwidth]{test2}
+    \includegraphics[width=0.35\textwidth]{test3}
+    \includegraphics[width=0.35\textwidth]{test4}
+    \caption{ตัวอย่างภาพบันทึกหน้าจอจาก AWS Devices Faem}
+    \label{Fig:90}
+\end{figure}
+
+จากรูป 3.42 คือรูปที่เกิดจากการบันทึกหน้าจอจาก AWS Device Farm ตอนทำการทดสอบและแสดงว่าไม่สามารถทดสอบได้
+
+\subsection{แนวทางการแก้ปัญหา}
+การแก้ปัญหาคือการที่จะต้องสร้าง Amazon Virtual Private Cloud ซึ่งจะต้องมีค่าใช้จ่ายในการทำเพื่อที่จะสามารถเชื่อมต่อกับอินเทอร์เน็ตภายในองค์กรได้แต่ทางองค์กรไม่ได้จัดสรรส่วนนี้ให้ในการทำการทดสอบทำให้ไม่สามารถนำ ชุดคำสั่งทดสอบ แอปพลิเคชัน HomePro E-Catalog ไปทดสอบบน AWS Devices Farm ได้
+
+
+\section{ประโยชน์ที่ได้รับจากปฏิบัติงานสหกิจศึกษา}
+ได้พัฒนาทักษะในด้านการทำชุดคำสั่งทดสอบอัตโนมัติ (Automate Test) ซึ่งเป็นทักษะที่ทางคณะไม่เคยมีอยู่ในหลักสูตรและไม่เคยทำมาก่อนจึงเป็นเรื่องท้าทายในการหาข้อมูลและนำมาประยุกต์ใช้อีกทั้งยังได้ฝึกทักษะในการแก้ปัญหาโปรแกรมต่างๆขนาดใหญ่ที่ทางบริษัทนำมาให้แก้เป็นงานนอกเหนือจากทำชุดคำสั่งทดสอบอัตโนมัติทำให้ได้เรียนรู้ว่าการทำงานจริงส่วนใหญ่คือการพัฒนาของเดิมให้ดีขึ้นไม่ใช่การสร้างใหม่
