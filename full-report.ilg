@@ -165,71 +165,69 @@ Scanning input file full-report.tex...
 !! Input index error (file = full-report.tex, line = 90):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 91):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword ทดสอบกับแอปพลิเคชันโฮมโปรอีแคตตาล็อคที่ใช้กับระบบปฎิบัติการAndroidซึ่งนักศึกษาได้ปฎิบัติสหกิจศึกษาณ.
 !! Input index error (file = full-report.tex, line = 92):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 94):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 95):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 96):
-   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 97):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword ทาง.
 !! Input index error (file = full-report.tex, line = 98):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 99):
+!! Input index error (file = full-report.tex, line = 100):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 101):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \pagestyle.
 !! Input index error (file = full-report.tex, line = 102):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \pagenumbering.
 !! Input index error (file = full-report.tex, line = 103):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \makeabstracteng.
 !! Input index error (file = full-report.tex, line = 104):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 105):
-   -- Unknown index keyword \pagestyle.
-!! Input index error (file = full-report.tex, line = 106):
-   -- Unknown index keyword \pagenumbering.
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 107):
-   -- Unknown index keyword \makeabstracteng.
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 108):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 110):
    -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = full-report.tex, line = 111):
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 112):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 113):
+!! Input index error (file = full-report.tex, line = 114):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 115):
-   -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 116):
    -- Unknown index keyword \addcontentsline.
-!! Input index error (file = full-report.tex, line = 117):
+!! Input index error (file = full-report.tex, line = 116):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = full-report.tex, line = 118):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 119):
-   -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 120):
    -- Unknown index keyword \addcontentsline.
-!! Input index error (file = full-report.tex, line = 121):
+!! Input index error (file = full-report.tex, line = 120):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = full-report.tex, line = 122):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 123):
-   -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 124):
    -- Unknown index keyword \addcontentsline.
-!! Input index error (file = full-report.tex, line = 125):
+!! Input index error (file = full-report.tex, line = 124):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = full-report.tex, line = 126):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 127):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 128):
+!! Input index error (file = full-report.tex, line = 129):
    -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 130):
-   -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 131):
    -- Unknown index keyword \pagestyle.
-!! Input index error (file = full-report.tex, line = 132):
+!! Input index error (file = full-report.tex, line = 131):
    -- Unknown index keyword \pagenumbering.
+!! Input index error (file = full-report.tex, line = 132):
+   -- Unknown index keyword \include.
 !! Input index error (file = full-report.tex, line = 133):
    -- Unknown index keyword \include.
 !! Input index error (file = full-report.tex, line = 134):
@@ -237,25 +235,23 @@ Scanning input file full-report.tex...
 !! Input index error (file = full-report.tex, line = 135):
    -- Unknown index keyword \include.
 !! Input index error (file = full-report.tex, line = 136):
-   -- Unknown index keyword \include.
-!! Input index error (file = full-report.tex, line = 137):
    -- Unknown index keyword %\include.
+!! Input index error (file = full-report.tex, line = 138):
+   -- Missing arguments -- need two (premature LFD).
 !! Input index error (file = full-report.tex, line = 139):
-   -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 140):
    -- Unknown index keyword \addcontentsline.
-!! Input index error (file = full-report.tex, line = 141):
+!! Input index error (file = full-report.tex, line = 140):
    -- Unknown index keyword \bibliographystyle.
-!! Input index error (file = full-report.tex, line = 142):
+!! Input index error (file = full-report.tex, line = 141):
    -- Unknown index keyword \bibliography.
-!! Input index error (file = full-report.tex, line = 144):
+!! Input index error (file = full-report.tex, line = 143):
    -- Missing arguments -- need two (premature LFD).
-!! Input index error (file = full-report.tex, line = 145):
+!! Input index error (file = full-report.tex, line = 144):
    -- Unknown index keyword \include.
-!! Input index error (file = full-report.tex, line = 147):
+!! Input index error (file = full-report.tex, line = 146):
    -- Unknown index keyword \nocite.
-!! Input index error (file = full-report.tex, line = 149):
+!! Input index error (file = full-report.tex, line = 148):
    -- Unknown index keyword \end.
-done (0 entries accepted, 128 rejected).
+done (0 entries accepted, 126 rejected).
 Nothing written in full-report.ind.
 Transcript written in full-report.ilg.

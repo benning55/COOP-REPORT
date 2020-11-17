@@ -87,29 +87,28 @@
     \newgeometry{top=1in, bottom=1in, left=1.5in, right=1in, includefoot}
 
     \makeabstract{
-        % รายงานเล่มนี้จะนำเสนอ ที่มาและกระบวนการพัฒนาโมบายล์แอปพลิเคชันบนระบบปฏิบัติการ 
-        % Android และ iOS ซึ่งนักศึกษาได้ปฏิบัติสหกิจศึกษา ณ ธนาคารซีไอเอ็มบีไทย จำกัด (มหาชน) สำนักงานใหญ่ 
-        % ตำแหน่ง Junior Mobile Developer
+        รายงานเล่มนี้จะนำเสนอผลลัพธ์ และขั้นตอนการดำเนินงานเพื่อให้ได้ชุดคำสั่งทดสอบอัตโนมัติที่ไว้ใช้
+        ทดสอบกับแอปพลิเคชัน โฮมโปร อีแคตตาล็อค ที่ใช้กับระบบปฎิบัติการ Android ซึ่งนักศึกษาได้ปฎิบัติสหกิจศึกษา ณ {\Company}
+        ตำแหน่ง Programmer
 
-        % ธนาคารซีไอเอ็มไทย จำกัด (มหาชน) ได้จัดจำหน่ายหุ้นกู้ หนึ่งในตราสารหนี้ที่ถูกกฏหมาย โดยหุ้นกู้เป็นตราสารหนี้ที่ออกโดยบริษัทเอกชน
-        % โดยจะออกหุ้นกู้เพื่อระดมเงินทุนจากผู้ลงทุนและประชาชนทั่วไปเพื่อใช้ในการดำเนินกิจการ หุ้นกู้ที่ออกโดยภาค
-        % เอกชนนี้มักจะมีเงื่อนไขรายละเอียดของการออกในรูปแบบที่หลากหลายเพื่อให้สอดคล้องกับความต้องการ
-        % เงินทุนและความสามารถในการจ่ายคืนเงินต้นของบริษัทผู้ออกนั้นๆ ปกติการซื้อหุ้นกู้ต้องทำการซื้อผ่านสาขาเท่านั้น 
-        % ซึ่งกระบวนการในการซื้อนั้นมีขั้นตอนที่ซับซ้อนและยุ่งยากต้องมีการเซ็นเอกสารทุกครั้งที่ซื้อ และใช้เวลานาน
-        % เพื่อรอการตรวจสอบข้อมูลของผู้ซื้อ
+        {\Company} ได้ทำการพัฒนาแอปพลิเคชันออกมาหลายตัวหนึ่งในนั้นคือ แอปพลิเคชัน โฮมโปร อีแคตตาล็อค ที่ถูกพัฒนาขึ้นมาด้วย
+        Flutter เมื่อจะนำขึ้นมาใช้งานจริงจะต้องทำการทดสอบก่อนเสมอทำให้ต้องนั่งทดสอบแบบ Manual ทำให้ใช้เวลานาน
 
-        % ทางธนาคารซีไอเอ็มไทย จำกัด (มหาชน) จึงได้เพิ่มช่องทางการจองซื้อหุ้นกู้ผ่านแอปพลิเคชันซีไอเอ็มบีไทยดิจิตอลแบงก์กิ้ง 
-        % เพื่อเป็นการแก้ปัญหาและเพิ่มความสะดวกของลูกค้าที่ไม่ต้องมาดำเนินการที่สาขาให้ยุ่งยาก 
-        % และยังเป็นการเพิ่มช่องทางการจัดจำหน่ายของหุ้นกู้เพื่อเพิ่มรายได้ให้แก่ธนาคารซีไอเอ็มไทย จำกัด (มหาชน) อีกด้วย
+        ทาง {\Company} จึงอยากทดสอบการนำ การพัฒนาชุดคำสั่งทดสอบอัตโนมัติมาใช้เพื่อลดเวลาในการทดสอบมาใช้ว่าจริงหรือไม่
+        และดีกับการนำมาประยุกต์ใช้หรือไม่อีกทั้งต้องการนำชุดคำสั่งทดสอบอัตโนมัติขี้นไปทดสอบบน AWS Device Farm เพื่อทดสอบอุปกรณ์ได้หลากหลายมากขึ้
+
     }
     \pagestyle{fancy}
 	\pagenumbering{Roman}
    \makeabstracteng{
-    % This report will offer the source and development process of Mobile applications on the Android operating system, which the student has performed as required by CIMB Thai Bank Public Company Limited as Junior Mobile Developer.
-    
-    % CIMB Thai Bank Public Company Limited, sells bonds in legal and low risk debt securities. The bonds are issued by a private company to raise funds from investors and the general public to perform the basic operations of the company. Bonds issued by This private company is often a detailed condition of the issue in various ways to comply with the requirements. Funds and the ability to pay the original money of the issued company. Purchase of bonds must be purchased through the branch only, where the process of purchase has a complicated and tricky process. The document must be signed every time it is purchased and used. In order to verify the information of the buyer. 
-    
-    % So CIMB Thai Bank (Public Company Limited), it has increased the channel to purchase bonds through the CIMB THAI Digital Banking application. In order to solve the problem and increase the convenience of the customers who do not have to take action at the branch. This application increases the capacity of the distribution channel which return increases revenue to the CIMB Thai Bank. Limited.
+       This report will offer result and development process to build automate test script for application HomePro E-Catalog. That run on android OS
+       which cooperative education student work in Home Product Center Public Company Limited as Programmer.
+
+       Home Product Center Public Company Limited create a lot of application which one of that is HomePro E-Catalog that are made with Flutter Framework.
+       Before application go to production. The application need to be tested manual which take a longtime.
+
+       So Home Product Center Public Company Limited want to try bring automate testing to help reduce time cost and see if it also worth to use it
+       in other project and they also want to run automate test on AWS Device Farm for various devices.
    }
 
     \newpage
