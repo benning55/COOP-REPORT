@@ -82,6 +82,24 @@ TruongSinh, ``\textbf{what is Appium Flutter Driver}.'' [Online]. Available:
   \hspace*{1.2cm}https://github.com/truongsinh/appium-flutter-driver}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Wd}
+\BIBentryALTinterwordspacing
+jlipps, ``\textbf{WD.js}.'' [Online]. Available: \url{\newline
+  \hspace*{1.2cm}https://github.com/admc/wd}
+\BIBentrySTDinterwordspacing
+
+\bibitem{WebdriverIO}
+\BIBentryALTinterwordspacing
+webdriver, ``\textbf{WEBDRIVER I/O}.'' [Online]. Available: \url{\newline
+  \hspace*{1.2cm}https://webdriver.io/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{xpath}
+\BIBentryALTinterwordspacing
+Supatchakorn, ``\textbf{อะไรคือ Xpath}.'' [Online]. Available:
+  \url{\newline \hspace*{1.2cm}https://medium.com/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{mocha}
 \BIBentryALTinterwordspacing
 Mocha, ``\textbf{Introduction to Mocha}.'' [Online]. Available: \url{\newline

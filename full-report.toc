@@ -33,11 +33,13 @@
 \contentsline {subsection}{\numberline {2.5.6}Node.Js}{13}%
 \contentsline {subsection}{\numberline {2.5.7}Flutter}{14}%
 \contentsline {subsection}{\numberline {2.5.8}Appium Flutter Driver}{14}%
-\contentsline {subsection}{\numberline {2.5.9}WebdriverIO}{14}%
-\contentsline {subsection}{\numberline {2.5.10}Mocha}{14}%
-\contentsline {subsection}{\numberline {2.5.11}Chai}{15}%
-\contentsline {subsection}{\numberline {2.5.12}Git}{15}%
-\contentsline {subsection}{\numberline {2.5.13}Visual Studio Code}{15}%
+\contentsline {subsection}{\numberline {2.5.9}"Wd"}{14}%
+\contentsline {subsection}{\numberline {2.5.10}WebdriverIO}{14}%
+\contentsline {subsection}{\numberline {2.5.11}Xpath}{15}%
+\contentsline {subsection}{\numberline {2.5.12}Mocha}{15}%
+\contentsline {subsection}{\numberline {2.5.13}Chai}{15}%
+\contentsline {subsection}{\numberline {2.5.14}Git}{15}%
+\contentsline {subsection}{\numberline {2.5.15}Visual Studio Code}{15}%
 \contentsline {chapter}{\numberline {3}สรุปผลการปฎิบัติงาน}{16}%
 \contentsline {section}{\numberline {3.1}ผลการศึกษาแอปพลิเคชัน HomePro E-Catalog}{16}%
 \contentsline {subsection}{\numberline {3.1.1}เหตุการณ์ (Senario) ในการพัฒนาชุดคำสั่งทดสอบจากการศึกษา}{16}%
@@ -94,7 +96,7 @@
 \contentsline {chapter}{บรรณานุกรม}{63}%
 \ttl@change@i {\@ne }{chapter}{0mm}{\stepcounter {tocitem}\tocheadcont {\thelinenumber }{\thetocitem }{สารบัญ}}{ภาคผนวก\hspace {1ex}\thecontentslabel \hspace {2mm}}{}{\hfill \contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}บันทึกเวลาการปฏิบัติงาน}{65}%
-\contentsline {chapter}{\numberline {ข}บันทึกรายงานการปฎิบัติงาน}{70}%
-\contentsline {chapter}{\numberline {ค}ประวัติผู้เขียน}{76}%
+\contentsline {chapter}{\numberline {ก}บันทึกเวลาการปฏิบัติงาน}{66}%
+\contentsline {chapter}{\numberline {ข}บันทึกรายงานการปฎิบัติงาน}{71}%
+\contentsline {chapter}{\numberline {ค}ประวัติผู้เขียน}{77}%
 \contentsfinish 
