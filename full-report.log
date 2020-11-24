@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.9)  18 NOV 2020 18:51
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.9)  24 NOV 2020 16:26
 entering extended mode
 **./full-report.tex
 (full-report.tex
@@ -1145,13 +1145,108 @@ LaTeX Warning: Reference `timeSheetSep' on page 67 undefined on input line 196.
 
 ]
  ข.
+
+Overfull \hbox (26.1975pt too wide) in alignment at lines 253--258
+ [] [] 
+ []
+
+
+Overfull \hbox (26.1975pt too wide) in alignment at lines 258--262
+ [] [] 
+ []
+
+
+Overfull \hbox (26.1975pt too wide) in alignment at lines 262--264
+ [] [] 
+ []
+
+
+Overfull \hbox (26.1975pt too wide) in alignment at lines 264--305
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 305
+ []
+
+
+Overfull \hbox (26.1975pt too wide) in alignment at lines 305--308
+ [] [] 
+ []
+
+
+Overfull \hbox (26.68118pt too wide) in alignment at lines 310--315
+ [] [] 
+ []
+
+
+Overfull \hbox (26.68118pt too wide) in alignment at lines 315--320
+ [] [] 
+ []
+
+
+Overfull \hbox (26.68118pt too wide) in alignment at lines 320--322
+ [] [] 
+ []
+
+
+Overfull \hbox (26.68118pt too wide) in alignment at lines 322--363
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 363
+ []
+
+
+Overfull \hbox (26.68118pt too wide) in alignment at lines 363--366
+ [] [] 
+ []
+
 [70
 
-] [71
+]
+Underfull \vbox (badness 10000) detected at line 421
+ []
+
+[71]
+Overfull \hbox (16.28372pt too wide) in alignment at lines 424--429
+ [] [] 
+ []
+
+
+Overfull \hbox (16.28372pt too wide) in alignment at lines 429--434
+ [] [] 
+ []
+
+
+Overfull \hbox (16.28372pt too wide) in alignment at lines 434--436
+ [] [] 
+ []
+
+
+Overfull \hbox (16.28372pt too wide) in alignment at lines 436--477
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 477
+ []
+
+
+Overfull \hbox (16.28372pt too wide) in alignment at lines 477--478
+ [] [] 
+ []
+
+[72]
+Underfull \vbox (badness 10000) detected at line 533
+ []
+
+[73] [74] [75
 
 ]
  ค.
-) [72
+) [76
 
 ] (full-report.aux (chapter1.aux) (chapter2.aux) (chapter3.aux)
 (chapter4.aux) (appendix.aux))
@@ -1163,12 +1258,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12932 strings out of 414071
- 241833 string characters out of 2894591
- 545719 words of memory out of 3000000
- 30361 multiletter control sequences out of 15000+200000
+ 12942 strings out of 414071
+ 242001 string characters out of 2894591
+ 544933 words of memory out of 3000000
+ 30371 multiletter control sequences out of 15000+200000
  537485 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,10n,74p,613b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on full-report.pdf (88 pages).
+Output written on full-report.pdf (92 pages).
