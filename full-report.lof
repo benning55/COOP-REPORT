@@ -1,19 +1,3 @@
-\contentsline {figure}{\numberline {1.1}{\ignorespaces ตราตราสัญลักษณ์ บริษัท โฮมโปรดักส์ เซ็นเตอร์ จำกัด (มหาชน)\relax }}{2}%
-\contentsline {figure}{\numberline {1.2}{\ignorespaces โครงสร้างองค์กรของ บริษัท โฮมโปรดักส์ เซ็นเตอร์ จำกัด (มหาชน)\relax }}{4}%
-\contentsline {figure}{\numberline {2.1}{\ignorespaces ค่าใช้จ่ายการแก้ข้อผิดพลาดที่แปรผันตามขั้นตอนของการพัฒนาซอฟต์แวร์\relax }}{9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ตราตราสัญลักษณ์ Katalon Studio\relax }}{10}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ตราตราสัญลักษณ์ Selenium\relax }}{10}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ตราตราสัญลักษณ์ Micro Focus UFT\relax }}{11}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces ตราตราสัญลักษณ์ TestComplete\relax }}{11}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces ตราตราสัญลักษณ์ Appium\relax }}{11}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces โครงสร้างการทำงานของ Appium\relax }}{12}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces ตราสัญลักษณ์ Amazon Web Service (AWS)\relax }}{13}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces ตราสัญลักษณ์ AWS Device Farm\relax }}{13}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces ตราสัญลักษณ์ Node.JS\relax }}{13}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces ตราสัญลักษณ์ Flutter\relax }}{14}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces โครงสร้างการทำงานของ Appium Flutter Driver\relax }}{14}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces ตราสัญลักษณ์ Git\relax }}{15}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces ตราสัญลักษณ์ Visual Studio Code\relax }}{15}%
 \contentsline {figure}{\numberline {3.1}{\ignorespaces การดูค่า Element ด้วย Appium\relax }}{19}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces ตัวอย่างการแสดงผลของการทดสอบ\relax }}{19}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces ตัวอย่างการบันทึกหน้าจอเมื่อผิดผลาด\relax }}{20}%
@@ -55,5 +39,7 @@
 \contentsline {figure}{\numberline {3.39}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก จัดเรียง – เรียงจากราคามากไปหาน้อย\relax }}{57}%
 \contentsline {figure}{\numberline {3.40}{\ignorespaces ตัวอย่างเหตุการณ์ หมวดหมู่ย่อย (Level 1) ตัวเลือก เปรียบสินค้าหน้าหลัก\relax }}{58}%
 \contentsline {figure}{\numberline {3.41}{\ignorespaces ตัวอย่างผลการทดลองนำไปทดสอบบน AWS Device Farm\relax }}{59}%
-\contentsline {figure}{\numberline {3.42}{\ignorespaces ตัวอย่างภาพบันทึกหน้าจอจาก AWS Devices Faem\relax }}{60}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces ตัวอย่างภาพบันทึกหน้าจอจาก AWS Devices Farm\relax }}{60}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces กราฟแสดงถึงเวลาที่ใช้ในการทดสอบ\relax }}{62}%
+\contentsline {figure}{\numberline {ค.1}{\ignorespaces รูปภาพของ นาย เสฎฐวุฒิ ไม้สนธิ์\relax }}{78}%
 \contentsfinish 

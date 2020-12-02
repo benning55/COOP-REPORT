@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.9)  24 NOV 2020 17:52
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.9)  2 DEC 2020 23:41
 entering extended mode
 **./full-report.tex
 (full-report.tex
@@ -1103,29 +1103,54 @@ File: images/devicefarm2.jpg Graphic file (type bmp)
 <images/devicefarm2.jpg>
 File: images/test1.png Graphic file (type bmp)
 <images/test1.png>
-File: images/test2.png Graphic file (type bmp)
-<images/test2.png>
-File: images/test3.png Graphic file (type bmp)
-<images/test3.png>
-File: images/test4.png Graphic file (type bmp)
-<images/test4.png>
- [59] [60]) [61]
+ [59]
+Overfull \hbox (15.43187pt too wide) in alignment at lines 1213--1218
+ [] [] 
+ []
+
+
+Overfull \hbox (15.43187pt too wide) in alignment at lines 1218--1223
+ [] [] 
+ []
+
+
+Overfull \hbox (15.43187pt too wide) in alignment at lines 1223--1225
+ [] [] 
+ []
+
+
+Overfull \hbox (15.43187pt too wide) in alignment at lines 1225--1266
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 1266
+ []
+
+[60]
+Overfull \hbox (15.43187pt too wide) in alignment at lines 1266--1297
+ [] [] 
+ []
+
+[61]
+File: images/timetest.png Graphic file (type bmp)
+<images/timetest.png>
+) [62] [63]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
 บทที่ 4.
-) [62
+) [64
 
 
 
-] (full-report.bbl [63
-
-
-
-]) [64]
+]
+No file full-report.bbl.
 \openout2 = `appendix.aux'.
 
- (appendix.tex [65
+(appendix.tex [65
+
+
 
 
 ]
@@ -1141,115 +1166,148 @@ LaTeX Warning: Reference `timeSheetSep' on page 68 undefined on input line 157.
 LaTeX Warning: Reference `timeSheetSep' on page 68 undefined on input line 196.
 
 
-[68] [69] [70
+[68] [69] [70] [71
 
 ]
  ข.
 
-Overfull \hbox (26.1975pt too wide) in alignment at lines 253--258
+Overfull \hbox (26.1975pt too wide) in alignment at lines 290--295
  [] [] 
  []
 
 
-Overfull \hbox (26.1975pt too wide) in alignment at lines 258--262
+Overfull \hbox (26.1975pt too wide) in alignment at lines 295--299
  [] [] 
  []
 
 
-Overfull \hbox (26.1975pt too wide) in alignment at lines 262--264
+Overfull \hbox (26.1975pt too wide) in alignment at lines 299--301
  [] [] 
  []
 
 
-Overfull \hbox (26.1975pt too wide) in alignment at lines 264--305
+Overfull \hbox (26.1975pt too wide) in alignment at lines 301--342
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 305
+Underfull \vbox (badness 10000) detected at line 342
  []
 
 
-Overfull \hbox (26.1975pt too wide) in alignment at lines 305--308
+Overfull \hbox (26.1975pt too wide) in alignment at lines 342--345
  [] [] 
  []
 
 
-Overfull \hbox (26.68118pt too wide) in alignment at lines 310--315
+Overfull \hbox (26.68118pt too wide) in alignment at lines 347--352
  [] [] 
  []
 
 
-Overfull \hbox (26.68118pt too wide) in alignment at lines 315--320
+Overfull \hbox (26.68118pt too wide) in alignment at lines 352--357
  [] [] 
  []
 
 
-Overfull \hbox (26.68118pt too wide) in alignment at lines 320--322
+Overfull \hbox (26.68118pt too wide) in alignment at lines 357--359
  [] [] 
  []
 
 
-Overfull \hbox (26.68118pt too wide) in alignment at lines 322--363
+Overfull \hbox (26.68118pt too wide) in alignment at lines 359--400
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 363
+Underfull \vbox (badness 10000) detected at line 400
  []
 
 
-Overfull \hbox (26.68118pt too wide) in alignment at lines 363--366
+Overfull \hbox (26.68118pt too wide) in alignment at lines 400--403
  [] [] 
  []
 
-[71
+[72
 
 ]
-Underfull \vbox (badness 10000) detected at line 421
- []
-
-[72]
-Overfull \hbox (16.28372pt too wide) in alignment at lines 424--429
- [] [] 
- []
-
-
-Overfull \hbox (16.28372pt too wide) in alignment at lines 429--434
- [] [] 
- []
-
-
-Overfull \hbox (16.28372pt too wide) in alignment at lines 434--436
- [] [] 
- []
-
-
-Overfull \hbox (16.28372pt too wide) in alignment at lines 436--477
- [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 477
- []
-
-
-Overfull \hbox (16.28372pt too wide) in alignment at lines 477--478
- [] [] 
+Underfull \vbox (badness 10000) detected at line 458
  []
 
 [73]
-Underfull \vbox (badness 10000) detected at line 533
+Overfull \hbox (16.28372pt too wide) in alignment at lines 461--466
+ [] [] 
  []
 
-[74] [75] [76
+
+Overfull \hbox (16.28372pt too wide) in alignment at lines 466--471
+ [] [] 
+ []
+
+
+Overfull \hbox (16.28372pt too wide) in alignment at lines 471--473
+ [] [] 
+ []
+
+
+Overfull \hbox (16.28372pt too wide) in alignment at lines 473--514
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 514
+ []
+
+
+Overfull \hbox (16.28372pt too wide) in alignment at lines 514--515
+ [] [] 
+ []
+
+[74]
+Underfull \vbox (badness 10000) detected at line 570
+ []
+
+[75]
+Overfull \hbox (16.26974pt too wide) in alignment at lines 575--580
+ [] [] 
+ []
+
+
+Overfull \hbox (16.26974pt too wide) in alignment at lines 580--585
+ [] [] 
+ []
+
+
+Overfull \hbox (16.26974pt too wide) in alignment at lines 585--587
+ [] [] 
+ []
+
+
+Overfull \hbox (16.26974pt too wide) in alignment at lines 587--628
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 628
+ []
+
+
+Overfull \hbox (16.26974pt too wide) in alignment at lines 628--631
+ [] [] 
+ []
+
+[76] [77
 
 ]
  ค.
-) [77
+File: images/me.jpg Graphic file (type bmp)
+<images/me.jpg>
+) [78
 
-] (full-report.aux (chapter1.aux) (chapter2.aux) (chapter3.aux)
-(chapter4.aux) (appendix.aux))
+] (full-report.aux
+No file chapter1.aux.
+No file chapter2.aux.
+(chapter3.aux) (chapter4.aux) (appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1258,12 +1316,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12947 strings out of 414071
- 242040 string characters out of 2894591
- 545979 words of memory out of 3000000
- 30376 multiletter control sequences out of 15000+200000
+ 12935 strings out of 414071
+ 241838 string characters out of 2894591
+ 546250 words of memory out of 3000000
+ 30370 multiletter control sequences out of 15000+200000
  537485 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,10n,74p,613b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on full-report.pdf (93 pages).
+Output written on full-report.pdf (94 pages).

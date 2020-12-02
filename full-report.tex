@@ -39,7 +39,7 @@
 \newcommand{\Advisor}{ผศ.ดร.บุญประเสริฐ สุรักษ์รัตนสกุล}
 \newcommand{\AdvisorEng}{Asst. Prof. Dr. Boonprasert Surakratanasakul}
 %7. Your advisor employee
-\newcommand{\Exami}{กรรณิการ์ จันทร์คง}
+\newcommand{\Exami}{คุณ กรรณิการ์ จันทร์คง}
 \newcommand{\ExamiEng}{ test }
 %8. สถานประกอบการ
 \newcommand{\Company}{บริษัท โฮมโปรดักส์ เซ็นเตอร์ จำกัด (มหาชน)}
@@ -78,8 +78,8 @@
     \makeletter
     \makeack{
         \begin{enumerate}
-            \item อุบลรัตน์ พรหมสาขา ณ สกลนคร \quad ตำแหน่ง ผู้จัดการทั่วไป-สายบริการส่งเสริมการขาย 
-            \item กรรณิการ์ จันทร์คง \quad ตำแหน่ง ผู้จัดการฝ่ายวิเคราะห์และพัฒนาระบบสนับสนุนการขาย (พนักงานที่ปรึกษา)
+            \item คุณ อุบลรัตน์ พรหมสาขา ณ สกลนคร \quad ตำแหน่ง ผู้จัดการทั่วไป-สายบริการส่งเสริมการขาย 
+            \item คุณ กรรณิการ์ จันทร์คง \quad ตำแหน่ง ผู้จัดการฝ่ายวิเคราะห์และพัฒนาระบบสนับสนุนการขาย (พนักงานที่ปรึกษา)
         \end{enumerate}
     }
     \makeapproveletter
@@ -90,26 +90,21 @@
     \makeabstract{
         รายงานเล่มนี้จะนำเสนอผลลัพธ์ และขั้นตอนการดำเนินงานเพื่อให้ได้ชุดคำสั่งทดสอบอัตโนมัติที่ไว้ใช้
         ทดสอบกับแอปพลิเคชัน โฮมโปร อีแคตตาล็อค ที่ใช้กับระบบปฎิบัติการ Android ซึ่งนักศึกษาได้ปฎิบัติสหกิจศึกษา ณ {\Company}
-        ตำแหน่ง Programmer
-
-        {\Company} ได้ทำการพัฒนาแอปพลิเคชันออกมาหลายตัวหนึ่งในนั้นคือ แอปพลิเคชัน โฮมโปร อีแคตตาล็อค ที่ถูกพัฒนาขึ้นมาด้วย
-        Flutter เมื่อจะนำขึ้นมาใช้งานจริงจะต้องทำการทดสอบก่อนเสมอทำให้ต้องนั่งทดสอบแบบ Manual ทำให้ใช้เวลานาน
-
-        ทาง {\Company} จึงอยากทดสอบการนำ การพัฒนาชุดคำสั่งทดสอบอัตโนมัติมาใช้เพื่อลดเวลาในการทดสอบมาใช้ว่าจริงหรือไม่
-        และดีกับการนำมาประยุกต์ใช้หรือไม่อีกทั้งต้องการนำชุดคำสั่งทดสอบอัตโนมัติขี้นไปทดสอบบน AWS Device Farm เพื่อทดสอบอุปกรณ์ได้หลากหลายมากขึ้
-
+        ตำแหน่ง Programmer {\Company} ได้ทำการพัฒนาแอปพลิเคชันออกมาหลายตัวหนึ่งในนั้นคือ แอปพลิเคชัน โฮมโปร อีแคตตาล็อค ที่ถูกพัฒนาขึ้นมาด้วย
+        Flutter เมื่อจะนำขึ้นมาใช้งานจริงจะต้องทำการทดสอบก่อนเสมอจึงทำการทดสอบแบบ Manual ทำให้ใช้เวลานาน
+        นักศึกษาจึงทำการศึกษาเครื่อมือที่สามารถนำมาใช้พัฒนาชุดคำสั่งทดสอบอัตโนมัติโดยจะเป็นการใช้ APPIUM เป็นตัวขับเคลื่อนการทำงานของชุดคำสั่งทดสอบอัตโนมัติ
+        ที่ถูกสร้างขึ้นด้วย NodeJs เป็นภาษา JavaScript และทดลองนำชุดคำสั่งทดสอบอัตโนมัติไปทดสอบบน AWS Device Farm เพื่อจำลองการทดสอบแอปพลิเคชัน
+        ในอุปกรณ์ที่หลากหลาย
     }
     \pagestyle{fancy}
 	\pagenumbering{Roman}
    \makeabstracteng{
        This report will offer result and development process to build automate test script for application HomePro E-Catalog. That run on android OS
        which cooperative education student work in Home Product Center Public Company Limited as Programmer.
-
        Home Product Center Public Company Limited create a lot of application which one of that is HomePro E-Catalog that are made with Flutter Framework.
-       Before application go to production. The application need to be tested manual which take a longtime.
-
-       So Home Product Center Public Company Limited want to try bring automate testing to help reduce time cost and see if it also worth to use it
-       in other project and they also want to run automate test on AWS Device Farm for various devices.
+       Before application go to production. The application need to be tested manual which take a longtime, so cooperative education student
+       try to discover tool that will provide to run automate test wich found to be APPIUM that run test script that wrote with NodeJs as JavaScript language, then move
+       test script to test on  AWS Device Farm for variety Device to be tested.
    }
 
     \newpage

@@ -3,43 +3,6 @@
 \contentsline {chapter}{สารบัญ}{III}%
 \contentsline {chapter}{สารบัญตาราง}{V}%
 \contentsline {chapter}{สารบัญรูป}{VII}%
-\contentsline {chapter}{\numberline {1}บทนำ}{1}%
-\contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{1}%
-\contentsline {section}{\numberline {1.2}วัตถุประสงค์}{1}%
-\contentsline {section}{\numberline {1.3}ประวัติ และรายละเอียดสถานประกอบการ}{2}%
-\contentsline {subsection}{\numberline {1.3.1}ชื่อ และสถานที่ตั้งของสถานประกอบการ}{2}%
-\contentsline {subsection}{\numberline {1.3.2}ประวัติความเป็นมาของสถานประกอบการ}{2}%
-\contentsline {subsection}{\numberline {1.3.3}ลักษณะการประกอบการ ผลิตภัณฑ์/ผลิตผล}{2}%
-\contentsline {subsection}{\numberline {1.3.4}แบบการจัดการองค์กร และการบริหารงาน}{4}%
-\contentsline {subsection}{\numberline {1.3.5}ตำแหน่ง และหน้าที่ของงานที่นักศึกษาได้รับมอบหมาย}{4}%
-\contentsline {section}{\numberline {1.4}ชื่อ และตำแหน่งของพนักงานที่ปรึกษา}{5}%
-\contentsline {section}{\numberline {1.5}ระยะเวลาที่ปฏิบัติงาน}{5}%
-\contentsline {chapter}{\numberline {2}รายละเอียดการปฏิบัติงาน}{6}%
-\contentsline {section}{\numberline {2.1}ตำแหน่ง/หน้าที่ของงานที่ได้รับมอบหมาย}{6}%
-\contentsline {subsection}{\numberline {2.1.1}ตำแหน่งงาน}{6}%
-\contentsline {subsection}{\numberline {2.1.2}หน้าที่ของงานที่ได้รับมอบหมาย}{6}%
-\contentsline {section}{\numberline {2.2}รายละเอียดของโครงงานที่ได้รับผิดชอบ}{6}%
-\contentsline {subsection}{\numberline {2.2.1}ขอบเขตของโครงการ}{7}%
-\contentsline {section}{\numberline {2.3}รายละเอียดของงานที่ปฏิบัตินอกเหนือจากโครงการที่รับผิดชอบ}{8}%
-\contentsline {subsection}{\numberline {2.3.1}บริการระบบงานขาย Single Sale}{8}%
-\contentsline {subsection}{\numberline {2.3.2}ระบบงานจัดส่งและบริการ Delivery Service}{8}%
-\contentsline {section}{\numberline {2.4}ลักษณะขั้นตอนกํารทำงาน}{8}%
-\contentsline {section}{\numberline {2.5}ทฤษฎีที่เกี่ยวข้อง}{9}%
-\contentsline {subsection}{\numberline {2.5.1}การทดสอบซอฟต์แวร์ (Software Testing)}{9}%
-\contentsline {subsection}{\numberline {2.5.2}การทดสอบอัตโนมัติ (Automation Testing)}{9}%
-\contentsline {subsection}{\numberline {2.5.3}Appium}{11}%
-\contentsline {subsection}{\numberline {2.5.4}API}{12}%
-\contentsline {subsection}{\numberline {2.5.5}AWS Device Farm}{12}%
-\contentsline {subsection}{\numberline {2.5.6}Node.Js}{13}%
-\contentsline {subsection}{\numberline {2.5.7}Flutter}{14}%
-\contentsline {subsection}{\numberline {2.5.8}Appium Flutter Driver}{14}%
-\contentsline {subsection}{\numberline {2.5.9}"Wd"}{14}%
-\contentsline {subsection}{\numberline {2.5.10}WebdriverIO}{14}%
-\contentsline {subsection}{\numberline {2.5.11}Xpath}{15}%
-\contentsline {subsection}{\numberline {2.5.12}Mocha}{15}%
-\contentsline {subsection}{\numberline {2.5.13}Chai}{15}%
-\contentsline {subsection}{\numberline {2.5.14}Git}{15}%
-\contentsline {subsection}{\numberline {2.5.15}Visual Studio Code}{15}%
 \contentsline {chapter}{\numberline {3}สรุปผลการปฎิบัติงาน}{16}%
 \contentsline {section}{\numberline {3.1}ผลการศึกษาแอปพลิเคชัน HomePro E-Catalog}{16}%
 \contentsline {subsection}{\numberline {3.1.1}เหตุการณ์ (Senario) ในการพัฒนาชุดคำสั่งทดสอบจากการศึกษา}{16}%
@@ -80,23 +43,24 @@
 \contentsline {subsection}{\numberline {3.3.7}หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก จัดเรียง – เรียงจากราคาน้อยไปหามาก}{56}%
 \contentsline {subsection}{\numberline {3.3.8}หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก จัดเรียง – เรียงจากราคามากไปหาน้อย}{57}%
 \contentsline {subsection}{\numberline {3.3.9}หน้าหลัก - หมวดหมู่ย่อย (Level 1) : ตัวเลือก เปรียบสินค้าหน้าหลัก}{58}%
-\contentsline {section}{\numberline {3.4}ผลการทดสอบด้วยการใช้ AWS Device Farm}{59}%
-\contentsline {subsection}{\numberline {3.4.1}แนวทางการแก้ปัญหา}{61}%
-\contentsline {section}{\numberline {3.5}ประโยชน์ที่ได้รับจากปฏิบัติงานสหกิจศึกษา}{61}%
-\contentsline {chapter}{\numberline {4}ปัญหาและข้อเสนอแนะ}{62}%
-\contentsline {section}{\numberline {4.1}ปัญหาด้านสถานประกอบการ}{62}%
-\contentsline {subsection}{\numberline {4.1.1}ปัญหา}{62}%
-\contentsline {subsection}{\numberline {4.1.2}ข้อเสนอแนะ}{62}%
-\contentsline {section}{\numberline {4.2}ปัญหาด้านสถาบัน}{62}%
-\contentsline {subsection}{\numberline {4.2.1}ปัญหา}{62}%
-\contentsline {subsection}{\numberline {4.2.2}ข้อเสนอแนะ}{62}%
-\contentsline {section}{\numberline {4.3}ปัญหาด้านตัวนักศึกษา}{62}%
-\contentsline {subsection}{\numberline {4.3.1}ปัญหา}{62}%
-\contentsline {subsection}{\numberline {4.3.2}ข้อเสนอแนะ}{62}%
-\contentsline {chapter}{บรรณานุกรม}{63}%
+\contentsline {section}{\numberline {3.4}ข้อจำกัดของการทดสอบในโครงการด้วย AWS Device Farm}{59}%
+\contentsline {subsection}{\numberline {3.4.1}แนวทางการแก้ปัญหา}{60}%
+\contentsline {section}{\numberline {3.5}สรุปการทดลองทั้งหมดของ HomePro E-Catalog}{60}%
+\contentsline {section}{\numberline {3.6}ประโยชน์ที่ได้รับจากปฏิบัติงานสหกิจศึกษา}{62}%
+\contentsline {chapter}{\numberline {4}ปัญหาและข้อเสนอแนะ}{64}%
+\contentsline {section}{\numberline {4.1}ปัญหาด้านสถานประกอบการ}{64}%
+\contentsline {subsection}{\numberline {4.1.1}ปัญหา}{64}%
+\contentsline {subsection}{\numberline {4.1.2}ข้อเสนอแนะ}{64}%
+\contentsline {section}{\numberline {4.2}ปัญหาด้านสถาบัน}{64}%
+\contentsline {subsection}{\numberline {4.2.1}ปัญหา}{64}%
+\contentsline {subsection}{\numberline {4.2.2}ข้อเสนอแนะ}{64}%
+\contentsline {section}{\numberline {4.3}ปัญหาด้านตัวนักศึกษา}{64}%
+\contentsline {subsection}{\numberline {4.3.1}ปัญหา}{64}%
+\contentsline {subsection}{\numberline {4.3.2}ข้อเสนอแนะ}{64}%
+\contentsline {chapter}{\numberline {ก}บันทึกเวลาการปฏิบัติงาน}{66}%
+\contentsline {chapter}{\numberline {ข}บันทึกรายงานการปฎิบัติงาน}{72}%
+\contentsline {chapter}{\numberline {ค}ประวัติผู้เขียน}{78}%
+\contentsline {chapter}{บรรณานุกรม}{65}%
 \ttl@change@i {\@ne }{chapter}{0mm}{\stepcounter {tocitem}\tocheadcont {\thelinenumber }{\thetocitem }{สารบัญ}}{ภาคผนวก\hspace {1ex}\thecontentslabel \hspace {2mm}}{}{\hfill \contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
-\contentsline {chapter}{\numberline {ก}บันทึกเวลาการปฏิบัติงาน}{66}%
-\contentsline {chapter}{\numberline {ข}บันทึกรายงานการปฎิบัติงาน}{71}%
-\contentsline {chapter}{\numberline {ค}ประวัติผู้เขียน}{77}%
 \contentsfinish 
