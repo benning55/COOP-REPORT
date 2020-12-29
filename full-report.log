@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.9)  2 DEC 2020 23:41
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2020.10.9)  3 DEC 2020 13:25
 entering extended mode
 **./full-report.tex
 (full-report.tex
@@ -1103,39 +1103,40 @@ File: images/devicefarm2.jpg Graphic file (type bmp)
 <images/devicefarm2.jpg>
 File: images/test1.png Graphic file (type bmp)
 <images/test1.png>
- [59]
-Overfull \hbox (15.43187pt too wide) in alignment at lines 1213--1218
+ [59] [60]
+Overfull \hbox (19.48804pt too wide) in alignment at lines 1214--1219
  [] [] 
  []
 
 
-Overfull \hbox (15.43187pt too wide) in alignment at lines 1218--1223
+Overfull \hbox (19.48804pt too wide) in alignment at lines 1219--1224
  [] [] 
  []
 
 
-Overfull \hbox (15.43187pt too wide) in alignment at lines 1223--1225
+Overfull \hbox (19.48804pt too wide) in alignment at lines 1224--1226
  [] [] 
  []
 
 
-Overfull \hbox (15.43187pt too wide) in alignment at lines 1225--1266
+Overfull \hbox (19.48804pt too wide) in alignment at lines 1226--1267
  [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 1266
+Underfull \vbox (badness 10000) detected at line 1267
  []
 
-[60]
-Overfull \hbox (15.43187pt too wide) in alignment at lines 1266--1297
+
+Overfull \hbox (19.48804pt too wide) in alignment at lines 1267--1298
  [] [] 
  []
 
 [61]
-File: images/timetest.png Graphic file (type bmp)
-<images/timetest.png>
-) [62] [63]
+Underfull \vbox (badness 10000) detected at line 1311
+ []
+
+[62]) [63]
 \openout2 = `chapter4.aux'.
 
  (chapter4.tex
@@ -1144,29 +1145,30 @@ File: images/timetest.png Graphic file (type bmp)
 
 
 
-]
-No file full-report.bbl.
+] (full-report.bbl [65
+
+
+
+]) [66]
 \openout2 = `appendix.aux'.
 
-(appendix.tex [65
-
-
+ (appendix.tex [67
 
 
 ]
  ก.
-[66
+[68
 
-] [67]
+] [69]
 
-LaTeX Warning: Reference `timeSheetSep' on page 68 undefined on input line 157.
-
-
-
-LaTeX Warning: Reference `timeSheetSep' on page 68 undefined on input line 196.
+LaTeX Warning: Reference `timeSheetSep' on page 70 undefined on input line 157.
 
 
-[68] [69] [70] [71
+
+LaTeX Warning: Reference `timeSheetSep' on page 70 undefined on input line 196.
+
+
+[70] [71] [72] [73
 
 ]
  ข.
@@ -1228,13 +1230,13 @@ Overfull \hbox (26.68118pt too wide) in alignment at lines 400--403
  [] [] 
  []
 
-[72
+[74
 
 ]
 Underfull \vbox (badness 10000) detected at line 458
  []
 
-[73]
+[75]
 Overfull \hbox (16.28372pt too wide) in alignment at lines 461--466
  [] [] 
  []
@@ -1263,11 +1265,11 @@ Overfull \hbox (16.28372pt too wide) in alignment at lines 514--515
  [] [] 
  []
 
-[74]
+[76]
 Underfull \vbox (badness 10000) detected at line 570
  []
 
-[75]
+[77]
 Overfull \hbox (16.26974pt too wide) in alignment at lines 575--580
  [] [] 
  []
@@ -1296,18 +1298,26 @@ Overfull \hbox (16.26974pt too wide) in alignment at lines 628--631
  [] [] 
  []
 
-[76] [77
+[78] [79
 
 ]
  ค.
+File: images/trip1.jpg Graphic file (type bmp)
+<images/trip1.jpg>
+File: images/trip2.jpg Graphic file (type bmp)
+<images/trip2.jpg>
+[80
+
+] [81
+
+]
+ ง.
 File: images/me.jpg Graphic file (type bmp)
 <images/me.jpg>
-) [78
+) [82
 
-] (full-report.aux
-No file chapter1.aux.
-No file chapter2.aux.
-(chapter3.aux) (chapter4.aux) (appendix.aux))
+] (full-report.aux (chapter1.aux) (chapter2.aux) (chapter3.aux)
+(chapter4.aux) (appendix.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -1316,12 +1326,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12935 strings out of 414071
- 241838 string characters out of 2894591
- 546250 words of memory out of 3000000
- 30370 multiletter control sequences out of 15000+200000
+ 12972 strings out of 414071
+ 242259 string characters out of 2894591
+ 546464 words of memory out of 3000000
+ 30401 multiletter control sequences out of 15000+200000
  537485 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  52i,10n,74p,613b,443s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on full-report.pdf (94 pages).
+Output written on full-report.pdf (98 pages).
